@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* トップページコンテンツ
+--------------------------------------------------------- */
+
+/*============================
+#mainImage
+============================*/
+#mainImage {
+	height: 0;
+	padding-top: 525px;
+	overflow: hidden;
+	background: url(resource/images/top_images/hometop.png) no-repeat center top;
+	background-size: 100% 600px;
+	margin: 0 auto;
+}
+html[lang="en"] #mainImage {
+	background: url(resource/images/top_images/hometop_en.png) no-repeat center top;
+}
+
+/* ウィンドウ幅が768pxの場合に適用するCSS */
+@media screen and ( max-width:768px ) {
+	#mainImage,
+	html[lang="en"] #mainImage {
+		padding-top: 70%;
+		background-size: cover;
+	}
+}

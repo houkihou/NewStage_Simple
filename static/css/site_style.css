@@ -1,0 +1,1705 @@
+@charset "utf-8";
+/* CSS Document */
+
+code,body {
+	font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ ProN W3','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro',verdana,'ＭＳ Ｐゴシック',  Arial, Helvetica, Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 1.6;
+	color: #333;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+a {
+	text-decoration: underline;
+	color: #1e488e;
+}
+a:link {
+	text-decoration: underline;
+	color: #023a96;
+}
+a:visited {
+	text-decoration: underline;
+	color: #023a96;
+}
+a:hover {
+	text-decoration: none;
+	color: #023a96;
+}
+.fLeft {
+	float: left;
+}
+.fRight {
+	float: right;
+}
+.clear-fix {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.brand-color{
+	color: #02368c;
+}
+#edit-area .mar-b0 {
+	margin-bottom: 0;
+}
+.spSidebar { /* 20170911 sp最適化に伴う追加 */
+	display: none;
+}
+#header {
+	width: 966px;
+	margin: 0 auto 20px;
+	padding: 20px 0 0 0;
+}
+#header a {
+	text-decoration: none;
+}
+#headerLogo a {
+	display: block;
+	overflow: hidden;
+	padding-top: 24px;
+	background: url(resource/images/common_images/logo.png) no-repeat 0 bottom;
+    width: 400px;
+    height: 30px;
+}
+#headerSitemap,
+#headerLanguage {
+	float: left;
+	padding-top: 5px;
+}
+#headerSitemap a {
+	font-size: 85%;
+	padding: 0 24px 0 10px;
+	color: #333;
+	background: url(resource/images/common_images/icon_arrow01.png) no-repeat 0 center;
+}
+#headerLanguage a {
+	font-size: 92%;
+	padding-top: 0;
+	padding-right: 24px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	color: #333;
+	background: url(resource/images/common_images/icon_arrow01.png) no-repeat 0 center;
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: none;
+	-moz-text-decoration-style: solid;
+}
+#headerSitemap a:hover,
+#headerLanguage a:hover {
+	text-decoration: underline;
+}
+#headerFontsize {
+	display: table;
+	float: left;
+	padding-right: 15px;
+}
+#headerFontsize div,
+#headerFontsize p {
+	display: table-cell;
+	height: 28px;
+}
+#fontSize {
+	font-size: 85%;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+#headerFontsize p a {
+	display: table-cell;
+	width: 36px;
+	height: 28px;
+	font-size: 92%;
+	color: #656565;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	background: #dbdbdb;
+	border: 1px solid #d1d1d1;
+}
+#headerFontsize p.current a {
+	color: #fff;
+	background: #4c4b4b;
+	border: 1px solid #4c4b4b;
+}
+#headerSearch {
+	height: 30px;
+	background: #dbdbdb;
+	 /* 20190418 IR業者切り替えに伴う追加 */
+	display:table-cell;
+	vertical-align:middle;
+}
+#searchArea {
+	display: table;
+}
+#searchArea li {
+	display: table-cell;
+	padding:3px;
+	vertical-align: middle;
+}
+#searchArea li label {
+	font-size: 85%;
+}
+#searchArea li .keywords {
+	display: table-cell;
+	vertical-align: middle;
+	display: block;
+	border:none;
+	height: 24px;
+padding: 0 3px;
+}
+#searchArea li #btn_headerSearch {
+	display: table-cell;
+	vertical-align: middle;
+	width: 39px; /* 20170911 sp最適化に伴う追加 */
+	/* height: 23px; 20170911 sp最適化に伴う削除 */
+	height: 24px; /* 20170911 sp最適化に伴う追加 */
+	/* border-top: 1px solid #4C4B4B; 20170911 sp最適化に伴う削除 */
+	margin-left: 3px;
+	padding: 0;
+	background: #4c4b4b url(resource/images/common_images/btn_headersearch.png) no-repeat 0 center; /* 20170911 sp最適化に伴う追加 */
+	border-width: 0; /* 20170911 sp最適化に伴う追加 */
+	text-indent: -9999px; /* 20170911 sp最適化に伴う追加 */
+}
+.search-result #searchArea {
+	background-color: #dbdbdb;
+}
+.search-result #searchArea .keywords{
+	width: 646px;
+	padding:0 3px;
+}
+.search-result > #contents p.no-posts {
+	margin-top: 30px;
+}
+.search-result .searchList li .search_cat{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	color: #838383;
+}
+.search-result .searchList li .date{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+	font-size: 11px;
+	color: #838383;
+}
+.search-result .searchList{
+	margin-top:30px;
+}
+.search-result .searchList li {
+	position: relative;
+	padding:10px;
+	border-bottom:1px dotted #b7b7b7;
+	display: block;
+}
+
+.search-result .searchList li:first-child {
+	padding-top: 0;
+}
+
+.search-result .searchList li a{
+	width: 450px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+ /* 20190418 IR業者切り替えに伴う追加 */
+#headerArea .headfunction {
+	display: table;}
+
+#headerArea .headbtn {
+	display: table-cell;
+	vertical-align: middle;}
+/* 20190418 ここまで*/
+
+#spHeader { /* 20170911 sp最適化に伴う追加 */
+	display: none;
+}
+.pager,
+.page_navi:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.pager{
+	margin-top: 30px;
+}
+.page_navi{
+	text-align: center;
+}
+.page_navi li{
+	display: -moz-inline-box;
+    display: inline-block;
+    /*display: inline;*/
+}
+.page_navi li.current{
+	padding: 0 5px;
+}
+.page_navi li a{
+	padding: 0 10px;
+}
+.page_navi li:first-child:before {
+    content: "検索結果ページ";
+    margin-right: 10px;
+}
+
+.en .page_navi li:first-child:before {
+    content: "Page";
+    margin-right: 10px;
+}
+
+#lNaviArea {
+/*height: 45px;*//*20190418 IR切り替えに伴い削除*/
+	background: #012563;
+	border-top: 1px solid #ebeaeb;
+}
+#lNavi {
+	width: 966px;
+	margin: 0 auto;
+}
+#lNavi li {
+	/*display: inline-block;*/
+	float: left;
+}
+#lNavi li+li {
+	background: url(resource/images/common_images/border_gnav.png) no-repeat 0 5px;
+}
+#lNavi li a {
+	display: block;
+	line-height: 45px;
+	/*display: table-cell;*/
+	/*width: 161px;*/
+	width: 160px;
+	height: 45px;
+	font-size: 107%;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	/*vertical-align: middle;*/
+}
+#lNavi li#menu-item-19760 a {
+	width: 182px;
+}
+#lNavi li.current-menu-item > a,
+#lNavi li.current-page-ancestor > a,
+#lNavi li.current_page_item > a,
+#lNavi li a:hover {
+	background: #02368c;
+}
+#lNavi li+li.current-menu-item > a,
+#lNavi li+li.current-page-ancestor > a,
+#lNavi li+li.current_page_item > a,
+#lNavi li+li.logical-ancestor > a,
+#lNavi li+li a:hover {
+	background: #02368c url(resource/images/common_images/border_gnav.png) no-repeat 0 5px;
+}
+#lNavi .current {
+	background: #02368c;
+}
+#lNavi li+li.current {
+	background: #02368c url(resource/images/common_images/border_gnav.png) no-repeat 0 5px;
+}
+.bread_crumb {
+	width: 966px;
+	padding-top: 10px;
+	margin: 0 auto 35px;
+}
+.bread_crumb:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.bread_crumb li {
+	float: left;
+	font-size: 92%;
+}
+.bread_crumb li+li {
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_arrow07.png) no-repeat 7px 5px;
+}
+.bread_crumb li a {
+	color: #1e488e;
+}
+.main {
+	width: 966px;
+	margin: 0 auto;
+}
+#contents {
+	width: 700px;
+}
+.section {
+	margin-bottom: 35px;
+}
+.sectionHeader {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background: url(resource/images/common_images/bg_title.png) repeat-x bottom;
+	margin-bottom: 40px;
+}
+.home .sectionHeader{
+	margin-bottom: 10px;
+}
+
+/**
+ * 各ページの見出し
+ */
+
+.sectionHeader h2 {
+	float: left;
+	font-size: 130%;
+	font-weight: bold;
+	line-height: 2.0;
+	padding: 0 25px 0 15px;
+	border-left: 9px solid #023a96;
+	margin-bottom: 5px;
+}
+.sectionHeaderDescription01 {
+	font-size: 100%;
+	float: left;
+	padding-top: 8px;
+}
+
+#irp-library-term-list-new h3 a,
+h3 .archive,
+.sectionHeaderLink {
+	float: right;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 3.0;
+	padding-left: 18px;
+	background: url(resource/images/common_images/icon_arrow02.png) no-repeat 0 center;
+}
+#sidebar {
+	width: 220px;
+	margin-bottom: 40px;
+}
+.sideLayerNavTitle {
+	display: table;
+	width: 218px;/*20190418 IR切り替えに伴いサイズ変更　元：214px*/
+	height: 54px;
+	margin-bottom: 0;
+	padding: 1px 2px;
+	border: 1px solid #b7b7b7;
+	box-sizing:border-box;/*20190418 IR切り替えに伴い追加*/
+}
+.sideLayerNavTitle span {
+	display: table-cell;
+	width: 194px;
+	height: 54px;
+	font-size: 123%;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 4px 10px 0;
+	background: url(resource/images/common_images/bg_sideheader.png) repeat-x top;
+}
+#sideLayerNav > li {
+	width: 218px;
+	line-height: 1.6;
+	border-right: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+	border-left: 1px solid #b7b7b7;
+	box-sizing:border-box;/*20190418 IR切り替えに伴い追加*/
+}
+#sideLayerNav li ul li + li {
+	border-top: 1px solid #b7b7b7;
+}
+#sideLayerNav li a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 10px 10px 25px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 11px 17px;
+}
+#sideLayerNav li .sub-menu li{
+	border:none;
+}
+#sideLayerNav li .sub-menu li a{
+	padding-left:40px;
+	background:url(resource/images/common_images/icon_arrow_grndchld.png) no-repeat 30px 16px;
+}
+#sideLayerNav li .sub-menu .current_page_item a,
+#sideLayerNav li .sub-menu li a:hover {
+	background-color:#ededed;
+}
+#sideLayerNav .current_page_item > a,
+#sideLayerNav .current-page-ancestor > a,
+#sideLayerNav li:hover>a {
+	background: #ededed url(resource/images/common_images/icon_arrow06.png) no-repeat 11px 17px;
+}
+#sideLayerNav li:hover {
+	cursor: pointer;
+}
+#sideLayerNav .page_item_has_children a {
+	background: url(resource/images/common_images/bg_side_pulldown.png) no-repeat 0 center;
+}
+#sideLayerNav .page_item_has_children.current_page_item a,
+#sideLayerNav .page_item_has_children:hover a,
+#sideLayerNav .page_item_has_children a:hover {
+	background: #ededed url(resource/images/common_images/bg_side_pulldown.png) no-repeat 0 center;
+}
+.sub-menu{
+	display: none;
+}
+#sideLayerNav .page_item_has_children .sub-menu li {
+	width: 218px;
+	border: none;
+}
+#sideLayerNav .current_page_item ul,
+#sideLayerNav .current_page_ancestor ul{
+	display: block;
+}
+#sideLayerNav .current_page_parent > a{
+	background-color: #ededed;
+}
+#sideLayerNav .current_page_parent.menu-item-has-children > a{
+	background-color: #fff;
+}
+#sideLayerNav .current_page_parent.menu-item-has-children > a:hover{
+	background-color: #ededed;
+}
+#sideLayerNav .page_item_has_children .sub-menu li a {
+	display: block;
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5;
+	text-decoration: none;
+	padding: 10px 0 10px 40px;
+	background: url(resource/images/common_images/icon_arrow_black.png) no-repeat 30px 16px;
+}
+#sideLayerNav .page_item_has_children .sub-menu li:hover a {
+	background: #ededed url(resource/images/common_images/icon_arrow_black.png) no-repeat 30px 16px;
+}
+.search-result #sideLayerNav p {
+	margin-bottom: 5px;
+}
+.search-result #sideLayerNav li:first-child{
+	border-top: 1px solid #b7b7b7;
+}
+.search-result #sideLayerNav > li:first-child{
+	border-style: none;
+	border-bottom: 1px solid #b7b7b7;
+}
+.search-result #sideLayerNav li ul li {
+	border-left: 1px solid #b7b7b7;
+	border-right: 1px solid #b7b7b7;
+}
+.sideSection {
+	margin-bottom: 30px;
+}
+.sideMainNav li {
+	display: table;
+	width: 218px;
+	height: 58px;
+	border: 1px solid #b7b7b7;
+	margin-bottom: 10px;
+}
+.sideMainNav li a {
+	display: table-cell;
+	font-size: 115%;
+	color: #333;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 0 14px;
+	background: url(resource/images/common_images/icon_arrow03.png) no-repeat 200px center;
+}
+.sideMainNav .current a,
+.sideMainNav li a:hover {
+	background: #ededed url(resource/images/common_images/icon_arrow03.png) no-repeat 200px center;
+}
+#sideLayerNav .none {
+	display: none;
+}
+#sideLayerNav .sub-menu{
+	display:none;
+}
+#sideAssociateLink {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.leftButton,
+.rightButton{
+	float: left;
+	width: 13px;
+}
+#sideAssociateLink ul {
+	width: 220px;
+}
+#sideAssociateLink ul li,
+#sideAssociateLink ul li a {
+	display: block;
+	width: 220px;
+	height: 77px;
+	vertical-align: middle;
+	text-align: center;
+}
+#sideBanner {
+	margin-bottom: 0;
+}
+#sideBanner li {
+	width: 220px;
+	margin-bottom: 10px;
+}
+#sideBanner li a {
+    display: block;
+}
+#sideBanner li img{
+	display: block;
+}
+#sideBanner .sidebanner_blog {
+	height: 60px;
+}
+#sideBanner .sidebanner_sns {
+	height: 55px;
+}
+.gotoTop {
+	width: 700px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.gotoTop p a {
+	font-size: 85%;
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_arrow04.png) no-repeat 0 center;
+}
+#footerNavArea {
+	background: #002562;
+}
+.sp_footer_menu { /* 20170911 sp最適化に伴う追加 */
+	display: none;
+}
+.sp_footer_search { /* 20170911 sp最適化に伴う追加 */
+	display: none;
+}
+#footerNav {
+	width: 966px;
+	padding-top: 20px;
+	margin: 0 auto 30px;
+}
+#footerNav a {
+	font-size: 92%;
+	color: #fff;
+	text-decoration: none;
+}
+#footerNav ul {
+	float: left;
+	width: 210px;
+}
+#footerNav .footer_nav_title {
+	display: inline-block;
+	width: 210px;
+	font-weight: bold;
+	line-height: 1.8;
+	padding-top: 10px;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: 5px;
+}
+#footerNav ul+ul {
+	width: 210px;
+	/*padding-left: 40px;*/
+	margin-left:40px;/*20190418　IR切り替えに伴い追加*/
+}
+#footerNav ul li {
+	line-height: 2.0;
+}
+#footerNav ul li a:hover {
+	text-decoration: underline;
+}
+#footerNav .fnav-left li a:link{
+	background: none;
+	padding-left: 0;
+}
+#footerNav > ul > .menu-item {
+	line-height: 1.25em;
+	margin-top: 0.5em;
+	margin-bottom: .75em;
+	padding-left: 12px;
+	background-image: url("resource/images/common_images/arrow-r-pale.png");
+	background-repeat: no-repeat;
+	background-position: 3px .4em;
+}
+#footerLink {
+/*text-align: center;*/
+padding-bottom: 40px;
+width: 966px;
+margin: 0 auto;}
+
+#footerLink li {
+display: inline-block;
+/*height: 40px;*/
+padding-bottom: 10px;}
+
+#footerLink li a {
+margin:0 25px 0 0;
+}
+#footerLink li a img {
+width: inherit;
+}
+#copyright {
+	font-size: 80%;
+	color: #848484;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 15px;}
+
+.textPdf,
+.textLink {
+	margin-top: 10px;
+	text-align: right;
+}
+.textLink,
+#edit-area .textLink {
+	margin-bottom: 0;
+}
+.textLink a,
+#edit-area .textLink a {
+    background: url(resource/images/common_images/icon_arrow06.png) no-repeat scroll 0 center rgba(0, 0, 0, 0);
+    padding-left: 12px;
+    font-size: 11px;
+}
+.irp-icon-pdf,
+.dataPdf a {
+	margin-left: 5px;
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_pdf01.png) no-repeat 0 center;
+	height: 16px;
+	display: inline-block;
+}
+.irp-icon-pdf {
+	padding-left: 0;
+	width: 21px;
+}
+html[lang*="ja"] .irp-icon-pdf {
+	width: 22px;
+	margin-left: 4px;
+}
+.top_dataPdf a{
+	background: url(resource/images/common_images/icon_pdf01.png) no-repeat 0 center;
+	text-indent: -9999px;
+	width:16px;
+	display: inline-block;
+}
+.irp-icon-xls{
+	padding-left: 20px;
+	margin-left:8px;
+	background: url(resource/images/common_images/icon_excel.png) no-repeat 0 center;
+}
+html[lang*="ja"] .irp-icon-xls {
+	padding-left: 18px;
+}
+.irp-icon-swf{
+	display: inline-block;
+	width: 37px;
+	height: 16px;
+	margin-left: 4px;
+	background: url(resource/images/common_images/icon_movie.gif) no-repeat 0 center;
+}
+#index {
+	padding-top: 40px;
+}
+.articleListArea li h3{
+	margin-left: 130px;
+}
+.irp-press-list-top .irp-item:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.irp-press-list-top .irp-item .irp-title-block{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+}
+html[lang="en"] #irp-library-latest-5 .irp-date {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+.irp-press-list-top .irp-item .irp-title-block{
+	margin-left: 0;
+}
+#edit-area .pdflink {
+	padding:3px 0 3px 20px;
+	background: url(resource/images/common_images/icon_pdf01.png) no-repeat 0 center;
+}
+/*** .sectionSubHeader ***/
+.sectionSubHeader {
+	position: relative; /* clearfix */
+	overflow: hidden; /* clearfix */
+	z-index: 1; /* clearfix */
+}
+.caution{
+	font-size: 12px;
+}
+.single-arrow-link{
+	margin-top: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+#realtime-img{
+	margin-bottom: 20px;
+}
+#realtime-img a{
+	display: block;
+	text-align: center;
+}
+.pdf-old{
+	position: absolute;
+	top:-27px;
+    background-image: url(resource/images/common_images/icon_pdf01.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.archive #contents h2 span{
+	margin-left: 20px;
+	font-weight: normal;
+	font-size: 12px;
+}
+html[lang="en"] .irp-library-list-top .irp-item,
+.articleListArea li{
+	position: relative; /* clearfix */
+	overflow: hidden; /* clearfix */
+	z-index: 1; /* clearfix */
+	border-bottom: 1px dotted #b7b7b7;
+	padding: 12px 0;
+}
+.irp-press-list div .irp-date,
+#irp-press-custom-top .irp-item .irp-date{
+	float: left;
+	display: block;
+	margin-right: 90px;
+}
+.irp-press-list .irp-item,
+#irp-press-custom-top .irp-item{
+	border-bottom: 1px dotted #b7b7b7;
+	padding: 10px 0;
+	position: relative;
+}
+.irp-title-block{
+	float: left;
+	width: 500px;
+}
+.irp-item .irp-date:after{
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 10px;
+    left: 132px;
+    padding-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 1px;
+    position: absolute;
+    top: 12px;
+}
+.articleListArea span {
+    display: inline-block;
+    width: 505px;
+}
+.press .articleListArea .top_dataPdf,
+.articleListArea .top_dataPdf{
+	display: inline;
+	margin: 0 0 0 0;
+}
+.articleListArea .articleListDate {
+	float: left;
+	vertical-align: top;
+    margin-right: 10px;
+    width: 130px;
+    display: inline-block;
+}
+.irp-item.press .irp-date:after{
+	background-color: #17749F;
+    content: "リリース";
+    float: left;
+}
+
+.irp-item.kabu .irp-date:after{
+	background-color: #17749F;
+    content: "リリース";
+    float: left;
+}
+
+.irp-item.tanshin .irp-date:after{
+	background-color: #3b6f22;
+    content: "決算短信";
+}
+.irp-item.pr .irp-date:after{
+	background-color: #dc6616;
+    content: "PR情報";
+}
+.irp-item.ir .irp-date:after{
+	background-color: #113d86;
+    content: "IR情報";
+}
+.irp-item.news .irp-date:after{
+	background-color: #940606;
+    content: "お知らせ";
+}
+.release-ir .irp-title-block{
+	margin-left: 200px;
+}
+.irp-library-category{
+	margin-top: 40px;
+}
+.irp-library-category li{
+	list-style: none !important;
+	margin: 10px 0 !important;
+}
+.irp-library-category .irp-term{
+	border-bottom: 1px dotted #b7b7b7;
+	font-size: 15px;
+}
+.irp-library-category .irp-item-list{
+ margin: 20px 0 50px 0 !important;
+}
+.irp-library-category .irp-date{
+	font-size: 11px;
+}
+.overviewTableStyle {
+	margin: 20px 0 10px;
+}
+/*150122 padding修正*/
+.overviewTableStyle th {
+	width: 115px;
+	font-weight: normal;
+	vertical-align: top;
+	padding: 15px;
+	background: #ededed url(resource/images/common_images/bg_table.png) repeat-x bottom;
+}
+.overviewTableStyle td {
+	width: 540px;
+	padding: 15px 0 15px 15px;
+	background: url(resource/images/common_images/bg_table.png) repeat-x bottom;
+}
+.overviewTableStyle td ul{
+	margin-bottom: 0;
+}
+.overviewTableStyle li{
+	margin-top: 15px;
+	list-style-type:none;
+}
+.overviewTableStyle td ul li:first-child{
+	margin-top: 0;
+}
+#edit-area .overviewTableStyle ul{
+	margin-bottom: 0;
+}
+#edit-area .overviewTableStyle li{
+	list-style-type:none;
+	margin-top: 15px;
+}
+#edit-area .overviewTableStyle ul li:first-child{
+	margin-top: 0;
+}
+.overviewTableStyle td a {
+	padding-left: 10px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+.info .overviewTableStyle td a {
+	padding-left: 0;
+	background-image: none;
+}
+#edit-area .overviewLinkList li {
+	line-height: 2.0;
+	list-style-type: none;
+	margin: 0;
+}
+#edit-area .overviewLinkList li {
+	padding-left: 12px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+
+#edit-area .overviewLinkList li + li {
+ margin-top: 4px;}
+ 
+.upperTableStyle{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.upperTableStyle tr{
+	border-bottom: 1px dotted #b7b7b7;
+}
+.upperTableStyle th{
+	background-color: #ededed;
+	padding: 12px ;
+	font-weight: normal;
+	width: 145px;
+	border-right: 2px solid #fff;
+}
+.upperTableStyle td{
+	vertical-align: top;
+	padding:20px 15px;
+}
+.upperTableStyle dt {
+    float: left;
+	margin-top: 10px;
+    margin-right: 20px;
+}
+.upperTableStyle dd {
+    width: 270px;
+    margin-top: 10px;
+	padding-left: 105px;
+}
+.upperTableStyle dt:first-child,
+.upperTableStyle dt:first-child + dd{
+	margin-top: 0;
+}
+.upperTableStyle dd:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.overviewLinkList li {
+	line-height: 2.0;
+	list-style-type: none;
+	margin: 0;
+}
+/*.overviewLinkList li a {
+	padding-left: 12px;
+	background: url(./resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}*/
+
+/**
+ * Trust Form
+ */
+#contents div#trust-form.contact-form * {
+  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ ProN W3','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro',verdana,'ＭＳ Ｐゴシック', Arial, Helvetica, Verdana, sans-serif;
+}
+#contents div#trust-form.contact-form h3 {
+  margin-bottom: 28px;
+}
+
+/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form dl.choiceList {
+padding: 30px 0;
+border-bottom: 1px dotted #b7b7b7;}
+
+#contents div#trust-form.contact-form dl.choiceList dt {
+	font-size: 120%;
+    font-weight: bold;
+    line-height: 2.0;
+margin-bottom:5px;}
+
+#contents div#trust-form.contact-form dl.choiceList dd a.formlink
+{background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+padding-left: 10px;
+margin-top: 15px;
+display: inline-block;}
+/* 追記ここまで */
+
+#contents div#trust-form.contact-form table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 3px;
+  table-layout: fixed;
+}
+#contents div#trust-form.contact-form table th,
+#contents div#trust-form.contact-form table td {
+  width: auto;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#contents div#trust-form.contact-form table th {
+  font-weight: normal;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 6px;
+}
+#contents div#trust-form.contact-form table td {
+  width: 460px;
+  padding-left: 20px;
+  padding-right: 0;
+}
+#contents div#trust-form.contact-form table td input[type=text],
+/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form table td input[type=email],
+#contents div#trust-form.contact-form table td input[type=tel],
+#contents div#trust-form.contact-form table td .select-box select,
+#contents div#trust-form.contact-form table td .easy-select-box > .esb-displayer,
+#contents div#trust-form.contact-form table td textarea {
+  width: 448px;
+  padding: 2px 4px;
+  border: 1px solid #b7b7b7;
+}
+
+/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form table td .select-box select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #fff;
+	background: url(resource/images/common_images/dropdown-button.png) right 50% no-repeat, linear-gradient(to bottom, #fff 0%,#fff 100%);
+	width: 460px;
+	height:27px;
+padding: 2px 4px 2px 10px;
+border-radius: 0;}
+#contents div#trust-form.contact-form table td .select-box select::-ms-expand {
+	display: none;}
+
+#contents div#trust-form.contact-form table td textarea {
+  padding-right: 0;
+}
+#contents div#trust-form.contact-form table td input[type=text],
+/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form table td input[type=email],
+#contents div#trust-form.contact-form table td input[type=tel],
+#contents div#trust-form.contact-form table td .easy-select-box > .esb-displayer {
+  height: 15px;
+  padding: 5px;
+}
+#contents div#trust-form.contact-form table td input[type=radio] {
+  margin-right: 10px;
+/* 2018.3.7 フォームリニューアル用 追記*/
+vertical-align: middle;
+}
+/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form table td .your-method label{
+	margin-right: 50px;}
+#contents div#trust-form.contact-form table td span.wpcf7-list-item{
+	margin: 0;}
+/* フォームリニューアル用 追記ここまで */
+
+#contents div#trust-form.contact-form table td input.contact-tel {
+  width: 83px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#contents div#trust-form.contact-form table td input.contact-tel:first-child {
+  margin-left: 0;
+}
+#contents div#trust-form.contact-form table td textarea {
+  width: 454px;
+  overflow-y: scroll;
+  min-height: 21px;
+  resize: none;
+}
+#contents div#trust-form.contact-form table td .easy-select-box {
+  background-image: none;
+}
+#contents div#trust-form.contact-form table td .easy-select-box > .esb-displayer {
+  background-color: #fff;
+  background-image: url("resource/images/common_images/dropdown-button.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* 2018.3.7 フォームリニューアル用　エラー 追記*/
+#contents div#trust-form.contact-form div.wpcf7-validation-errors{
+	border: none !important;
+	color: #F70004;
+	font-weight: bold;
+	text-align: center;
+font-size: 105%;}
+
+#contents div#trust-form.contact-form div.wpcf7-response-output {
+	margin: 0 0 15px !important;}
+
+#contents div#trust-form.contact-form span.wpcf7-not-valid-tip {
+	margin-top: 5px;}
+
+#contents div#trust-form.contact-form div.wpcf7-mail-sent-ok {
+border: none !important;
+height: 0 !important;
+margin: 0 !important;
+padding: 0 !important;}
+
+/*20170802追加*/
+html[lang="en"] .ir #irp-release-latest-5 {
+    margin-bottom: 50px !important;
+}
+
+html[lang="en"] #irp-release-latest-5 .irp-date {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+
+#irp-press-list.irp-library-category li.irp-term {margin-bottom:20px !important; margin: 20px 0 20px !important;}
+
+
+
+/* ウィンドウ幅が768pxの場合に適用するCSS */
+@media screen and ( max-width:768px ) {
+	#wrapper {
+		width: auto;
+		padding: 0;
+	}
+	#spHeader {
+		position: fixed;
+		z-index: 100;
+		display: block !important;
+		width: 100%;
+		height: 56px;
+		border-bottom: #c9c9c9 solid 1px;
+		background-color: #fff;
+	}
+	#spHeaderLogo {
+		position: relative;
+	}
+	#spHeaderLogo a {
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		display: block;
+		width: 140px;
+		height: 36px;
+		text-indent: -9999px;
+		background: url(resource/images/common_images/logo_mobile.png) no-repeat 0 bottom;
+		background-size: 140px;
+	}
+	.spSidebarOpen {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		overflow: hidden;
+		width: 36px;
+		height: 36px;
+		white-space: nowrap;
+		text-indent: -9999px;
+		background: #002562 url(resource/images/common_images/sp-sidebar-open.png) no-repeat 0 0;
+		background-size: 36px;
+	}
+	.spSidebarClose {
+		position: absolute;
+		top: 7px;
+		right: 7px;
+		overflow: hidden;
+		width: 36px;
+		height: 36px;
+		white-space: nowrap;
+		text-indent: -9999px;
+		background: url(resource/images/common_images/sp-sidebar-close.png) no-repeat center center;
+		background-size: 36px;
+	}
+	.spSidebarClose + ul {
+		margin-top: 49px;
+	}
+	.spSidebar {
+		overflow: scroll;
+		background: #002562;
+		-webkit-overflow-scrolling: touch;
+	}
+	.spSidebar a {
+		font-size: 15px;
+		display: block;
+		padding: 12px 20px 8px;
+		text-decoration: none;
+		color: #fff;
+	}
+	.spSidebar > div > ul > li {
+		border-top: #5c749b dotted 1px;
+	}
+	.spSidebar > div > ul > li:last-child {
+		border-bottom: #5c749b dotted 1px;
+	}
+	.spSidebarToggle > a {
+		position: relative;
+	}
+	.spSidebarToggle > a:after {
+		position: absolute;
+		top: 13px;
+		right: 16px;
+		display: block;
+		width: 18px;
+		height: 18px;
+		content: '';
+		background: url(resource/images/common_images/sp-sidebar-plus.png) no-repeat center center;
+		background-size: 18px;
+	}
+	.spSidebarToggle > a.active:after {
+		background: url(resource/images/common_images/sp-sidebar-minus.png) no-repeat center center;
+		background-size: 18px;
+	}
+	.spSidebar .sub-menu > li > a {
+		padding-left: 35px;
+		background: url(resource/images/common_images/sp-sidebar-arrow-l.png) no-repeat 20px 16px;
+		background-size: 6px 15px;
+		line-height: 1.6;
+	}
+	.spSidebar .sub-menu > li:last-child > a {
+		margin-bottom: 10px;
+	}
+	.spSidebar .spSidebarTop a {
+		padding-left: 20px !important;
+		background: none !important;
+	}
+	.spSidebar .sub-menu {
+		display: none;
+	}
+	.spSidebar .sub-menu .sub-menu {
+		display: inherit;
+	}
+	.spSidebar .sub-menu .sub-menu a {
+		font-size: 14px;
+		padding-left: 55px;
+		background: url(resource/images/common_images/sp-sidebar-arrow-s.png) no-repeat 40px 16px;
+		background-size: 5px 13px;
+		line-height: 1.6;
+	}
+	.spSidebarLanguage {
+		font-size: 0;
+		margin: 30px 0;
+	}
+	.spSidebarLanguageJa,
+	.spSidebarLanguageEn {
+		font-size: 18px;
+		display: inline-block;
+		text-align: center;
+		color: #58678a;
+	}
+	.spSidebarLanguageJa a,
+	.spSidebarLanguageEn a {
+		padding: 0;
+		text-align: center;
+	}
+	.spSidebarLanguageJa {
+		width: -webkit-calc(50% - 1px);
+		width:         calc(50% - 1px);
+		border-right: #fff solid 1px;
+	}
+	.spSidebarLanguageEn {
+		width: 50%;
+	}
+	#headerInfo {
+		display: none;
+	}
+	#header {
+		display: none;
+	}
+	#lNaviArea {
+		display: none;
+	}
+	#hero {
+		padding-top: 56px;
+	}
+	#mainImage {
+		width: auto;
+	}
+	#index {
+		padding-top: 10px;
+	}
+	.main {
+		width: auto;
+	}
+	#contents {
+		width: auto;
+	}
+	#contents.fLeft {
+		float: none;
+	}
+	#sidebar {
+		display: none;
+	}
+	.gotoTop {
+		width: 100%;
+		margin: 30px 0;
+	}
+	.gotoTop p a {
+		margin-right: 20px;
+	}
+	#footerNav {
+		display: none;
+	}
+	.sp_footer_search {
+		display: block;
+		padding: 20px 25px;
+		background-color: #e7e7e7;
+	}
+	.sp_footer_search #searchForm {
+		padding: 0;
+	}
+	.sp_footer_search #searchArea {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+		/* 20190418　IR切り替えに伴い追加 */
+	.sp_footer_search #searchArea li {
+		position:relative;}
+	
+	.sp_footer_search #searchArea li .keywords {
+		font-size: 16px;
+		width: -webkit-calc(100% - 44px);
+		width:         calc(100% - 44px);
+		height: 35px;
+		border-top: #bbb solid 1px;
+		border-bottom: #bbb solid 1px;
+		border-left: #bbb solid 1px;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	.sp_footer_search #searchArea li #btn_headerSearch {
+		width: 37px;
+		height: 37px;
+		margin-left: 0;
+		vertical-align: middle;
+		border-top: #aaa solid 1px;
+		border-right: #aaa solid 1px;
+		border-bottom: #aaa solid 1px;
+		border-left: #bbb solid 1px;
+		border-radius: 0;
+		background: url(resource/images/common_images/sp_footer_search.png) no-repeat center center;
+		background-color: #4c4b4b;
+		background-size: 16px;
+		-webkit-appearance: none;
+		position:absolute;/* 20190418　IR切り替えに伴い追加 */
+		right:7px;/* 20190418　IR切り替えに伴い追加 */
+	}
+	.sp_footer_menu {
+		display: block;
+	}
+	.sp_footer_menu li a {
+		display: block;
+		padding: 15px 20px 12px;
+		text-decoration: none;
+		color: #fff;
+		border-bottom: #5c749b dotted 1px;
+	}
+	#footerLink {
+		padding: 15px 20px 20px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display:        flex;
+		-webkit-flex-wrap: wrap;
+	            -ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+width: auto;
+	}
+	#footerLink li {
+		width: 33.333%;
+		height: auto;
+		padding-bottom:0;
+	}
+	#footerLink li a {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		padding: 10px 5px;
+		text-align: center;
+	}
+	#footerLink li img {
+max-width: 100% !important;
+height: auto !important;
+		vertical-align: bottom;
+	}
+	#copyright {
+		margin-bottom: 0;
+		padding: 15px 0;
+	}
+	.bread_crumb {
+		width: auto;
+		margin: 0;
+		padding: 15px 20px 15px;
+	}
+	.bread_crumb li {
+		line-height: 1.8;
+	}
+	.bread_crumb li + li {
+		padding-left: 0 !important;
+		background: none !important;
+	}
+	.bread_crumb li:not(:last-child):after {
+		padding: 0 10px;
+		content: '';
+		background: url(resource/images/common_images/icon_arrow07.png) no-repeat 7px 5px;
+	}
+	.sectionHeader {
+		margin-bottom: 40px;
+		padding: 15px 20px 10px;
+		background-color: #002562;
+		background-image: none;
+	}
+	.sectionHeader h2 {
+		font-size: 15px;
+		font-weight: normal;
+		line-height: 1;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		border-left: none;
+	}
+	.home .sectionHeaderLink {
+		font-size: 11px;
+		font-weight: normal;
+		line-height: 1.0;
+		float: right;
+		padding-left: 18px;
+		background-image: none;
+	}
+	.home .sectionHeaderLink a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.home .sectionHeaderLink a:before {
+		content: '≫\00a0\00a0';
+	}
+	.home .sectionHeaderDescription01 {
+		display: none;
+	}
+	.home .articleListArea li {
+padding: 15px 0;
+margin:0 20px;
+		border-bottom: none;
+	}
+	
+.home .articleListArea li + li{
+border-top: #b7b7b7 1px dotted;}
+	
+	.home .articleListArea .articleListDate {
+		display: block;
+		float: none;
+		width: auto;
+		margin-right: 0;
+		margin-bottom: 2px;
+	}
+	.home .articleListArea li h3 {
+		margin-left: 0;
+	}
+	.home #irp-press-custom-top .irp-item {
+	padding: 15px 0;
+	margin:0 20px;
+		border-bottom: none;
+	}
+
+.home #irp-press-custom-top .irp-item + .irp-item{
+   border-top: #b7b7b7 1px dotted;}
+	
+	.home #irp-press-custom-top .irp-item .irp-date {
+		float: none !important;
+		margin-bottom: 5px;
+	}
+	.home .irp-title-block {
+		width: auto;
+	}
+	.home .irp-item.press .irp-date:after {
+		margin-left: 10px;
+	}
+	
+	/*.irp-press-list .irp-item, #irp-press-custom-top .irp-item{
+		padding: 15px 0;
+	}
+
+	.irp-press-list .irp-item:nth-of-type(1), #irp-press-custom-top .irp-item:nth-of-type(1) {
+		padding:0 0 15px;
+	}*/
+	
+	#edit-area {
+		padding: 0 20px 30px;
+	}
+	.profile .textPdf {
+		text-align: left;
+	}
+	.overviewTableStyle {
+		width: 100%;
+		margin: 0;
+	}
+	.overviewTableStyle th {
+		width: 25%;
+		padding: 15px 10px;
+	}
+	.overviewTableStyle td {
+		width: 75%;
+		padding: 15px 0 15px 10px;
+	}
+	.articleListArea span {
+		width: auto;
+	}
+	.archive #contents h2 span {
+		font-size: 11px;
+		line-height: 1.4;
+		display: block;
+		margin-top: 9px;
+		margin-left: 0;
+	}
+	.release-ir .irp-title-block {
+		margin: 10px 0 0 0;
+	}
+	.release-ir #irp-press-latest-list .irp-date {
+		float: none !important;
+	}
+	#irp-press-custom-top .irp-item .irp-date {
+		float: none !important;
+		margin-right: 0;
+	}
+	.release-ir .release-ir-wrap  {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display:         flex;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	}
+	.release-ir .release-ir-lastyear {
+		padding: 8px 0 8px 20px;
+		border-top: 1px solid #b7b7b7;
+		border-right: 1px solid #b7b7b7;
+		border-bottom: 1px dotted #b7b7b7;
+		border-left: 1px solid #b7b7b7;
+	}
+	.release-ir .ir-pulldown-list {
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 2;
+		 -webkit-order: 2;
+		         order: 2;
+	}
+	.release-ir .irp-press-list {
+		-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 1;
+		 -webkit-order: 1;
+		         order: 1;
+	}
+	.release-ir .irp-press-list div .irp-date {
+		display: inline-block;
+		float: none;
+	}
+	.irp-title-block {
+		width: auto;
+	}
+	.irp-library-category .irp-term {
+		font-size: 14px;
+	}
+	#edit-area .irp-library-category ul.irp-item-list {
+		margin-bottom: 40px;
+	}
+	.press .articleListArea {
+		float: none;
+	}
+	.press .articleListDate {
+		float: none;
+	}
+	.press .articleListArea.media .articleListDate {
+		float: left;
+	}
+	.search-result #searchArea li .keywords {
+		height: 26px;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	.search-result #searchArea li #btn_headerSearch {
+		height: 26px;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	.search-result .searchList {
+		padding: 0 20px;
+	}
+	.search-result .searchList li a {
+		display: block;
+		width: auto;
+		margin-right: 15px;
+		margin-bottom: 5px;
+	}
+	.search-result .searchList li .date {
+		margin-right: 5px;
+	}
+	.search-result .searchList li .search_cat {
+		position: static;
+	}
+	.page_navi {
+		margin: 50px 0;
+	}
+	.page_navi li:first-child:before {
+		margin-right: 0;
+		content: none;
+	}
+	.page_navi li.before,
+	.page_navi li.after,
+	.page_navi li.current,
+	.page_navi li.first,
+	.page_navi li.last {
+		display: none;
+	}
+	.page_navi .previous {
+		margin-right: 20px;
+	}
+	.page_navi .previous a,
+	.page_navi .next a {
+		padding: 10px 50px;
+		text-decoration: none;
+		color: #6a6a6a;
+		border: #c8c8c8 solid 1px;
+	}
+	.page_navi li a {
+		padding: 0;
+	}
+	html[lang='en'] .irp-library-list-top .irp-item {
+		padding: 12px 20px;
+	}
+	html[lang='en'] .irp-library-list-top .irp-item:last-child {
+		border-bottom: none;
+	}
+	html[lang='en'] .ir #irp-release-latest-5 .irp-item {
+		padding: 12px 0;
+	}
+	html[lang="en"] #irp-library-latest-5 .irp-date {
+		display: block;
+		float: none;
+	}
+	html[lang="en"] #irp-release-latest-5 .irp-date {
+		display: block;
+		float: none;
+	}
+	html[lang='en'] .irp-library-category li {
+	  margin: 15px 0 !important;
+	}
+	html[lang='en'] #irp-press-list.irp-library-category li.irp-term {
+	  margin-top: 50px !important;
+	}
+	#irp-library-term-list-new h3 a,
+	h3 .archive,
+	.sectionHeaderLink {
+		line-height: 2.0;
+	}
+	#contents div#trust-form.contact-form table tr {
+		margin-bottom: 15px;
+	}
+	#contents div#trust-form.contact-form table td {
+		width: 100%;
+		padding-left: 0;
+	}
+	#contents div#trust-form.contact-form .easy-select-box,
+	#contents div#trust-form.contact-form .esb-dropdown {
+		width: 100% !important;
+	}
+	#contents div#trust-form.contact-form table td input[type=text]:not(.contact-tel),
+	/* 2018.3.7 フォームリニューアル用 追記*/
+#contents div#trust-form.contact-form table td input[type=email],
+#contents div#trust-form.contact-form table td input[type=tel],
+#contents div#trust-form.contact-form table td .select-box select,
+	#contents div#trust-form.contact-form table td .easy-select-box > .esb-displayer,
+	#contents div#trust-form.contact-form table td textarea {
+		width: 100% !important;
+	}
+	#contents div#trust-form.contact-form table th {
+		padding-top: 7px;
+		padding-bottom: 6px;
+	}
+	#contents div#trust-form.contact-form table td input[type=text],
+		/* 2018.3.7 フォームリニューアル用 追記*/
+	#contents div#trust-form.contact-form table td input[type=email],
+#contents div#trust-form.contact-form table td input[type=tel]{
+		box-sizing: border-box;
+		height: 27px !important;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	#contents div#trust-form.contact-form table td input.contact-tel {
+		width: 25%;
+	}
+	#contents div#trust-form.contact-form table td textarea {
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+}

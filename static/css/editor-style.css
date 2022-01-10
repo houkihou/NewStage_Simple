@@ -1,0 +1,564 @@
+@charset "utf-8";
+/* CSS Document */
+
+div:after{
+	content:"";
+	display:block;
+	clear:both;
+	overflow: hidden;
+}
+#content_ifr html{
+	background-color: #efefef;
+}
+#tinymce{
+	width: 700px;
+	margin:0 auto;
+	font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	font-size: 13px;
+	color: #333;
+	line-height: 1.6;
+	background: url("resource/images/title.jpg") no-repeat 60;
+}
+#tinymce:after{
+	content:"";
+	width: 227px;
+	display: block;
+	height: 944px;
+	position: absolute;
+	top: 0;
+	right: 195px;
+}
+#tinymce dl{
+	margin-bottom: 20px;
+}
+#tinymce dt{
+	margin-bottom: 20px;
+    background-image: url("resource/images/common_images/icon_square01.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+/*headings*/
+#edit-area h3,
+#tinymce h3 {
+	font-size: 115%;
+	font-weight: bold;
+	line-height: 2.0;
+	border-bottom: 1px solid #b7b7b7;
+	display: block;
+	margin: 0 0 30px;
+}
+/* TODO:delete */
+/*#edit-area h3 + *,
+#tinymce h3 + *,*/
+#pressRelease #edit-area h3 + p,
+#pressRelease #edit-area h3 + h4,
+#pressRelease #edit-area h3 + h5,
+#pressRelease #edit-area h3 + .questionsList,
+#pressRelease #edit-area h3 + table,
+#pressRelease #edit-area .sitemap-list h3 + * {
+	margin-top: 20px;
+}
+#pressRelease #edit-area h3 + .questionsList{
+	margin-bottom: 40px;
+}
+
+/* TODO:delete */
+/*#pressRelease #edit-area h3 + *,
+#pressRelease #tinymce h3 + * {
+	margin-top: 5px;
+}*/
+#edit-area h4,
+#tinymce h4 {
+	/*200522修整　margin-top:20px;*/
+	margin-bottom: 15px;
+	font-size: 115%;
+	border-left:8px solid #B7B7B7;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#edit-area h4 span,
+#tinymce h4 span{
+	font-weight: normal;
+	font-size: 13px;
+}
+#edit-area h4 small,
+#tinymce h4 small{
+	font-weight: normal;
+}
+#edit-area h5,
+#tinymce h5 {
+	font-size: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	/*border-bottom: 1px dotted #b7b7b7;*/
+}
+#edit-area h6,
+#tinymce h6 {
+	font-size: 13px;
+	font-weight: bold;
+}
+#edit-area ul,
+#tinymce ul,
+#edit-area ol,
+#tinymce ol{
+	margin-bottom: 20px;
+}
+#edit-area ul li,
+#tinymce ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 10px;
+}
+#edit-area ol li,
+#tinymce ol li{
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+#edit-area .areaProvisions ol.normal,
+#edit-area .areaProvisions ul.normal{
+	margin-top: 10px;
+}
+#edit-area .areaProvisions ol.normal li,
+#edit-area .areaProvisions ul.normal li {
+	background-image: none;
+	margin-bottom: 5px;
+}
+.mod-2clm{
+	margin: 10px 0 40px 0;
+}
+.mod-2clm .left{
+	float: left;
+}
+.mod-2clm .right{
+	float: right;
+}
+
+.mod-3clm{
+	margin: 10px 0 30px 0;
+}
+.mod-3clm div{
+	float: left;
+}
+.frame {
+	background-color: #ededed;
+	padding: 15px;
+}
+
+.aligncenter{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.alignright{
+	text-align: right;
+	display: block;
+	/*margin: 0 0 0 auto;*/
+}
+
+
+#tinymce .overviewLinkList li {
+	line-height: 2.0;
+	list-style-type: none;
+	margin: 0;
+}
+#tinymce .overviewLinkList li a {
+	padding-left: 12px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+blockquote {
+	text-indent: 40px;
+}
+ul.override-list-style-disc li {
+	padding-left: 0;
+	background: none;
+	list-style-type: disc;
+}
+.questionsList li,
+.answersList li {
+	margin-left: 0 !important;
+}
+/* 141211追加 */
+.frameGray {
+	background-color: #ededed;
+	padding: 15px;
+	margin: 0 20px;
+}
+/* 150216追加 */
+#edit-area .editor-note  {
+	margin-bottom: 40px;
+}
+/*  役員紹介 /company/officer  201710 追加*/
+#edit-area .officerList ul {
+  margin-bottom: 0;
+}
+#edit-area .officerList li {
+  margin-left: 0;
+  list-style: none;
+}
+
+
+/* ウィンドウ幅が768pxの場合に適用するCSS */
+@media screen and ( max-width:768px ) {
+	#edit-area img {
+		max-width: 100%;
+		height: auto;
+	}
+	#edit-area .mod-2clm.service img {
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	#edit-area .travel-estate.mod-3clm img {
+		/*200522追加　width: 80%;*/
+		width: 70%;
+		margin:0 auto 10px;
+	}
+	
+	#edit-area .travel-estate.mod-3clm {
+		margin-top:30px;
+	}
+	
+	#edit-area p + .frameGray {
+		margin: 30px 0 0;
+	}
+	#edit-area .establishment.mod-2clm .left {
+		float: none;
+	}
+	#edit-area .establishment.mod-2clm .right {
+		float: none;
+		text-align: center;
+	}
+	#edit-area .establishment.mod-2clm .right p {
+		text-align: center;
+	}
+	#edit-area .establishment.mod-2clm .right img {
+		width: 80%;
+		margin: 10px auto 5px;
+	}
+	#edit-area .topicsareaProvisions .img2clmBox .left,
+	#edit-area .topicsareaProvisions .img2clmBox .right,
+	#edit-area .topicsareaProvisions .img2clmBox .mar-b0 {
+		text-align: center;
+	}
+	#edit-area .topicsareaProvisions .img2clmBox .left img,
+	#edit-area .topicsareaProvisions .img2clmBox .right img {
+		width: 80%;
+		margin: 10px auto 5px;
+	}
+	#edit-area .sp_images_50per img {
+		width: 50% !important;
+	}
+	.privacy .mod-2clm .left {
+		float: none;
+	}
+	.privacy .mod-2clm .right {
+		float: none;
+	}
+	.privacy .mod-2clm .right p {
+		text-align: right;
+	}
+	.privacy .mod-2clm .right img {
+		margin: 5px auto 10px;
+	}
+	#edit-area .ir-bulk .mod-2clm .left {
+		float: none;
+	}
+	#edit-area .ir-bulk .mod-2clm .right {
+		float: none;
+		margin: auto;
+	}
+	#edit-area h3 {
+		line-height: 1.6;
+	}
+	.sitemap #edit-area .mod-2clm .left,
+	.sitemap #edit-area .mod-2clm .right {
+		float: none;
+	}
+}
+
+/* 202109 Quicktag用 接頭辞qt- */
+/* 0.common */
+#tinymce {
+	font-family:'メイリオ',Meiryo,'ヒラギノ角ゴ ProN W3','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro',verdana,'ＭＳ Ｐゴシック',  Arial, Helvetica, Verdana, sans-serif;
+	line-height:2.2;
+}
+#tinymce p {
+	margin-block-start:0;
+}
+
+/* 1.paragraph */
+#tinymce p.qt-dropCap {
+	text-indent:1em;
+}
+#tinymce p.qt-dropCap_noMargin {
+	text-indent:1em;
+	margin-bottom:0;
+}
+#tinymce p.qt-nonstyle {}
+#tinymce p.qt-noMargin {
+	margin-bottom:0;
+}
+#tinymce p.qt-lhNarrow {
+	line-height:1.8;
+}
+
+
+/* 2.text-size */
+#tinymce span.qt-fontXL {
+	font-size:123%;
+}
+#tinymce span.qt-fontL {
+	font-size:112%;
+}
+#tinymce span.qt-fontS {
+	font-size:85%;
+}
+
+/* 3.text-decoration */
+#tinymce span.qt-fontBold {
+	font-weight:bold;
+}
+#tinymce span.qt-fontUL {
+	text-decoration:underline;
+}
+#tinymce span.qt-fontBold_UL {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/* 4.table */
+#tinymce div.qt-tableA_1col p,
+#tinymce div.qt-tableB p,
+#tinymce div.qt-tableC p {
+	text-align:center;
+}
+#tinymce div.qt-tableA_2col,
+#tinymce div.qt-tableA_3col {
+    display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#tinymce div.qt-tableA_2col .qt-tableFlexItem {
+	margin:0 20px 15px;
+}
+#tinymce div.qt-tableA_3col .qt-tableFlexItem {
+	margin:0 10px 15px;
+}
+#tinymce table.qt-tableBdr {
+	margin:0 auto 15px;
+    border-collapse:separate;
+    border-spacing:0;
+    box-sizing:border-box;
+    border-bottom:#bababa 1px solid;
+    border-left: #bababa 1px solid;
+}
+#tinymce table.qt-tableBdr td {
+    line-height:1.8;
+    font-weight:normal;
+    vertical-align:top;
+    word-break: break-all;
+    padding: 10px 12px 8px;
+    border-top:#bababa 1px solid;
+    border-right:#bababa 1px solid;
+}
+#tinymce table.qt-tableNoBdr {
+	margin:0 auto 15px;
+    border-collapse:separate;
+    border-spacing:0;
+    box-sizing:border-box;
+}
+#tinymce table.qt-tableNoBdr td {
+	padding: 0 10px 5px 0;
+    line-height:1.8;
+    font-weight:normal;
+    vertical-align:top;
+    word-break: break-all;
+}
+
+#tinymce table[class^='qt-table'] .bgDarkGy {
+    background-color:#6b6b6b;
+    color:#fff;
+}
+#tinymce table[class^='qt-table'] .bgGy {
+    background-color:#efefef;
+}
+#tinymce table[class^='qt-table'] .bgDarkBl {
+    background-color:#003387;
+    color:#fff;
+}
+#tinymce table[class^='qt-table'] .bgBl {
+    background-color:#ecf3ff;
+}
+#tinymce table[class^='qt-table'] .borderW {
+    box-shadow: 0 1px 0 0 #bababa, 0 2px 0 0 #fff, 0 3px 0 0 #bababa;
+}
+
+/* 5.image */
+#tinymce div.qt-image2col {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#tinymce div.qt-image2col div.qt-imageBox {
+	margin:0 10px 15px;
+}
+#tinymce div.qt-image1col p.qt-imageCaption,
+#tinymce div.qt-image2col p.qt-imageCaption {
+	text-align:center;
+	margin-bottom:0;
+}
+#tinymce div.qt-image2col p.qt-imageWrap {
+	margin-bottom:0;
+}
+#tinymce div.qt-image2col img {
+	height:100%;
+	width:auto;
+	max-width:678px;
+}
+#tinymce div.qt-image2col.qt-image2colSpaceWide div.qt-imageBox {
+	margin:0 20px 15px;
+}
+
+#tinymce div[class^='qt-imageFloat'] {
+	display:flex;
+	justify-content:center;
+}
+#tinymce div.qt-imageFloatRTop,
+#tinymce div.qt-imageFloatLTop {
+	align-items:flex-start;
+}
+#tinymce div.qt-imageFloatRCnt {
+	align-items:center;
+}
+#tinymce div.qt-imageFloatRBtm {
+	align-items:flex-end;
+}
+#tinymce div[class^='qt-imageFloat'] div.qt-paraWrap {
+	margin-bottom:15px;
+}
+#tinymce div.qt-imageFloatRTop p.qt-imageWrap,
+#tinymce div.qt-imageFloatRCnt p.qt-imageWrap,
+#tinymce div.qt-imageFloatRBtm p.qt-imageWrap {
+	margin:0 0 15px 15px;
+}
+#tinymce div.qt-imageFloatLTop p.qt-imageWrap {
+	margin:0 15px 15px 0;
+}
+#tinymce div[class^='qt-imageFloat'] p.qt-imageWrap img {
+	width:100%;
+	height:auto;
+}
+
+/* 6.layout */
+#tinymce div.qt-indent1 {
+	padding-left:2em;
+}
+#tinymce div.qt-indent2 {
+	padding-left:4em;
+}
+#tinymce div.qt-spacer5 {
+	content:'';
+	height:5px;
+	border:1px dashed #ff59ca;
+}
+#tinymce div.qt-spacer10 {
+	content:'';
+	height:10px;
+	border:1px dashed #ff59ca;
+}
+#tinymce div.qt-spacer15 {
+	content:'';
+	height:15px;
+	border:1px dashed #ff59ca;
+}
+#tinymce div.qt-spacerN5 {
+	content:'';
+	height:5px;
+	margin-top:-10px;
+	border:1px dashed #4a9fff;
+}
+#tinymce div.qt-spacerN10 {
+	content:'';
+	height:10px;
+	margin-top:-20px;
+	border:1px dashed #4a9fff;
+}
+#tinymce div.qt-spacerN15 {
+	content:'';
+	height:15px;
+	margin-top:-30px;
+	border:1px dashed #4a9fff;
+}
+
+/* 7.decoration */
+#tinymce div.qt-listItemGroup p,
+#tinymce div.qt-listItem {
+	text-indent:-1em;
+	padding-left:1em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset10 p,
+#tinymce div.qt-listItem.qt-listItemOffset10 {
+	text-indent:-1em;
+	padding-left:1em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset15 p,
+#tinymce div.qt-listItem.qt-listItemOffset15 {
+	text-indent:-1.5em;
+	padding-left:1.5em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset20 p,
+#tinymce div.qt-listItem.qt-listItemOffset20 {
+	text-indent:-2em;
+	padding-left:2em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset25 p,
+#tinymce div.qt-listItem.qt-listItemOffset25 {
+	text-indent:-2.5em;
+	padding-left:2.5em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset30 p,
+#tinymce div.qt-listItem.qt-listItemOffset30 {
+	text-indent:-3em;
+	padding-left:3em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset35 p,
+#tinymce div.qt-listItem.qt-listItemOffset35 {
+	text-indent:-3.5em;
+	padding-left:3.5em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset40 p,
+#tinymce div.qt-listItem.qt-listItemOffset40 {
+	text-indent:-4em;
+	padding-left:4em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset45 p,
+#tinymce div.qt-listItem.qt-listItemOffset45 {
+	text-indent:-4.5em;
+	padding-left:4.5em;
+}
+#tinymce div.qt-listItemGroup.qt-listItemOffset50 p,
+#tinymce div.qt-listItem.qt-listItemOffset50 {
+	text-indent:-5em;
+	padding-left:5em;
+}
+#tinymce div.qt-wrapBkLine {
+	margin-bottom:15px;
+	padding:10px 15px;
+	border:1px solid #bababa;
+}
+#tinymce div.qt-wrapGyBg {
+	margin-bottom:15px;
+	padding:10px 15px;
+	background-color:#efefef;
+}
+#tinymce div.qt-wrapGyBg_GyLine {
+	margin-bottom:15px;
+	padding:10px 15px;
+	background-color:#efefef;
+	border:1px solid #bababa;
+}

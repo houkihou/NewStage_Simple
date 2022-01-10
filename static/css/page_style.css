@@ -1,0 +1,3462 @@
+@charset "utf-8";
+/* CSS Document */
+/* =========================================================
+下層ページ
+========================================================= */
+.sectionSubHeader h4 {
+    border-left: 8px solid #B7B7B7;
+    font-size: 115%;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+ .sectionSubHeader .sectionHeaderDescription02 {
+	padding: 7px 0 0 10px;
+}
+/*** .relatedBox ***/
+.relatedBoxWrapper {
+	margin-bottom: 0;
+}
+.relatedBox {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	width: 688px;
+	padding: 5px;
+	border: 1px solid #b7b7b7;
+}
+.mar-t60 {
+	margin-top: 60px;
+}
+/*150126追加*/
+.mar-t30 {margin-top: 30px;}
+
+/*150313追加*/
+.mar-t10 {margin-top: 10px;}
+
+/*171219追加*/
+.mar-b10 {margin-bottom: 10px;}
+.bordergray {border: #dadada 1px solid;}
+
+#edit-area .relatedBox h4 {
+	float: left;
+	color: #fff;
+	font-size: 100%;
+	font-weight: normal;
+	border:none;
+	padding: 0 3px;
+	margin:0;
+	background: #4c4b4b;
+}
+#edit-area .relatedBox ul {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	z-index: 1;
+}
+#edit-area .relatedBox ul li {
+	float: left;
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+.investerRelations01 {
+	float: left;
+	width: 335px;
+}
+.investerRelations01+.investerRelations01 {
+	margin-left: 30px;
+}
+.investerRelations01 h4,
+.investerRelations02 h4 {
+	font-size: 115%;
+	font-weight: bold;
+	padding-left: 10px;
+	border-left: 8px solid #b7b7b7;
+	margin-bottom: 25px;
+}
+.ir .investerRelations01 h4 {
+	margin-top: 0 !important;
+}
+#edit-area .investerRelationsMaterial h5{
+	margin-top: 0;
+}
+#investerRelationsIndividual {
+	width: 170px;
+	padding-left: 15px;
+}
+#investerRelationsIndividualLink {
+	padding-top: 20px;
+}
+#investerRelationsIndividualLink a {
+	font-size: 85%;
+	padding-left: 12px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+.investerRelationsMaterial {
+	float: left;
+	width: 160px;
+}
+.investerRelationsMaterial+.investerRelationsMaterial {
+	padding-left: 15px;
+}
+.investerRelationsMaterial h5 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.investerRelationsMaterialContent {
+	margin-bottom: 5px;
+}
+.btn_base {
+	display: table;
+	width: 120px;
+	background: #6b80a4;
+}
+.btn_base.large {
+	width: 160px;
+}
+.btn_base:hover {
+	background: #97a6bf;
+}
+.btn_base a {
+	display: table-cell;
+	font-size: 92%;
+	color: #fff;
+	line-height: 2.0;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 15px;
+}
+.btn_material_dl a {
+	background: url(resource/images/common_images/icon_dl01.png) no-repeat 30px center;
+}
+.btn_material_dl.large a {
+	background-position: 10px center;
+	padding: 9px 0 7px 15px;
+}
+.btn_material_movie a {
+	background: url(resource/images/common_images/icon_movie01.png) no-repeat 40px center;
+}
+.investerRelations02 {
+	float: left;
+	width: 175px;
+}
+.investerRelations02 h4 {
+	margin-bottom: 15px;
+}
+/* .investerLinkList
+*****************************/
+/*  150109 .LatestMaterialsLink追加  */
+#edit-area .investerLinkList li,
+#edit-area .LatestMaterialsLink li {
+	line-height: 2.0;
+	list-style: none;
+}
+.investerLinkList li a {
+	font-size: 85%;
+	padding-left: 12px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+}
+#sideStockChart a:hover {
+	text-decoration: underline;
+}
+/*  150109追加  */
+.LatestMaterialsLink li a {
+	padding-left: 12px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+	font-weight:bold;
+}
+/*=======================================
+#contact
+=======================================*/
+.form-wrap{
+	position: relative;
+}
+#edit-area .trust-press-release ul{
+	margin: 0;
+}
+#edit-area .trust-press-release ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#edit-area .trust-press-release ul li{
+	list-style:none;
+	float: left;
+	width: 45%;
+}
+#edit-area .trust-press-release ul li input{
+	width: 30px;
+}
+
+/* contact-flow
+*****************************/
+.contact-flow {
+  margin: -25px 0 50px;
+}
+
+.contact-flow .contact-flow-current {
+  font-weight: bold;
+}
+
+/* .contactTableStyle
+*****************************/
+/*150123修正*/
+.require,.require02 {
+	font-size: 85%;
+	color: #fff !important;
+	padding:0 3px;
+	font-weight: normal;
+	background: #002562;
+	white-space: nowrap;
+	margin: 0 3px 0 0 !important;
+}
+.error{
+	color: #bf0000;
+}
+.contactTableStyle {
+	border-collapse: separate;
+	border-spacing: 0 3px;
+	margin: 20px 0 10px;
+}
+.contactTableStyle tr:hover {
+   background: inherit !important;
+ }
+.contact-form-confirm .contactTableStyle {
+	margin-bottom: 40px;
+}
+.contactTableStyle th {
+	width: 220px;
+	font-weight: normal;
+	vertical-align: top;
+	padding: 10px 0 10px 10px;
+	background: #ededed;
+}
+.contactTableStyle th .tag_require {
+	margin-left: 5px;
+}
+.contactTableStyle td {
+	width: 470px;
+	padding: 5px 0 5px 10px;
+}
+.contactTableStyle li {
+  display: inline-block;
+  width: 50%;
+}
+.contactTableStyle th .content {
+    margin-right: 5px;
+}
+.archive .easy-select-box,
+div#trust-form .easy-select-box {
+	position: relative;
+	width: 145px;
+	height: 27px;
+	padding: 0;
+	border: none;
+	background: url(resource/images/page_images/ir-list-pulldown-ex-large.gif);
+	background-repeat:no-repeat;
+	background-position: right top;
+	-webkit-appearance: inherit;
+	-moz-appearance: inherit;
+	appearance: inherit;
+}
+.archive .easy-select-box {
+	background: url(resource/images/page_images/ir-list-pulldown-large.gif);
+}
+
+.archive .easy-select-box .esb-displayer {
+	padding-top: 4px;
+	padding-left: 10px;
+}
+div#trust-form .easy-select-box .esb-displayer,
+.contact div#trust-form .easy-select-box .esb-displayer {
+	padding-top: 0;
+	padding-left: 10px;
+	width: 480px;
+	padding: 5px;
+}
+.archive .easy-select-box .esb-dropdown,
+div#trust-form .easy-select-box .esb-dropdown {
+	position: relative;
+	top: -1px;
+	left: 0;
+	display: none;
+	width: 100%;
+	padding: 0;
+	background-color: #fff;
+	z-index: 9999;
+	border-bottom: 1px solid #B7B7B7;
+	cursor: pointer;
+}
+.archive .easy-select-box .esb-dropdown{
+	top: 2px;
+}
+.archive .easy-select-box .esb-dropdown .esb-item,
+div#trust-form .easy-select-box .esb-dropdown .esb-item {
+	padding: 8px 5px 8px 25px;
+	border-top: 1px dotted #B7B7B7;
+	border-left: 1px solid #B7B7B7;
+	border-right: 1px solid #B7B7B7;
+	background-color: #fff;
+	background-image:url('resource/images/common_images/icon_arrow06.png');
+	background-repeat:no-repeat;
+	background-position:10px center;
+	color: #023a96;
+	text-decoration: none;
+}
+
+.archive .easy-select-box .esb-dropdown .esb-item:hover,
+.archive .easy-select-box .esb-dropdown .esb-item:active,
+
+div#trust-form .easy-select-box .esb-dropdown .esb-item:hover,
+div#trust-form .easy-select-box .esb-dropdown .esb-item:active {
+	background-color: #efefef;
+}
+
+#phone_number input {
+	width: 90px;
+	padding: 5px;
+}
+.contactTableStyle td textarea {
+	width: 476px;
+	height: 130px;
+	padding: 5px;
+}
+/* .contactAgreement
+*****************************/
+.contactAgreement {
+	width: 670px;
+	padding: 14px;
+	border: 1px dotted #b7b7b7;
+	margin-bottom: 30px;
+}
+.contactAgreement h3 {
+	font-weight: bold;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding-left: 15px;
+	background: url(resource/images/common_images/icon_square01.png) no-repeat 0 center;
+}
+
+.contactAgreement p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+#edit-area .form-wrap .contactAgreement ul li{
+	list-style: none;
+}
+#edit-area #contactAgreementBtnarea {
+	bottom: 0;
+	width: 700px;
+	overflow: hidden;
+	z-index: 1;
+	text-align: center;
+}
+.confirm-form-wrap #contactAgreementBtnarea{
+	position: relative;
+}
+#contactAgreementBtnarea input {
+	color: #fff;
+	padding: 10px 20px;
+	background: #4c4b4b;
+	border: none;
+}
+
+#contactAgreementBtnarea input:hover {
+	background: #787777;
+}
+
+
+
+
+
+/* 20170911 sp最適化に伴う削除
+#contactAgreementBtnarea input[type="submit"] {
+	margin-left: 8px;
+	padding: 10px 30px 10px 20px;
+	background: #4c4b4b url(./resource/images/common_images/icon_arrow09.png) no-repeat right center;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+*/
+#contactAgreementBtnarea [type="submit"] { /* 20170911 sp最適化に伴う追加 */
+	margin-left: 8px;
+	padding: 10px 30px 10px 20px;
+	background: #4c4b4b url(resource/images/common_images/icon_arrow09.png) no-repeat right center;
+	background-position: right center;
+	background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100%;
+  border: none;
+}
+#contactAgreementBtnarea input[name="return-to-input"] {
+	background-image: url(resource/images/common_images/icon_arrow11.png);
+	padding: 10px 20px 10px 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#btn_reset:hover {
+	cursor: pointer;
+	background: #787777;
+}
+/* 20170911 sp最適化に伴う変更
+#contactAgreementBtnarea input[type="submit"]:hover {
+	cursor: pointer;
+	background: #787777 url(./resource/images/common_images/icon_arrow09.png) no-repeat right center;
+}
+/* 20170911 sp最適化に伴う追加 */
+#contactAgreementBtnarea [type="submit"]:hover {
+	cursor: pointer;
+	background: #787777 url(resource/images/common_images/icon_arrow09.png) no-repeat right center;
+}
+#contactAgreementBtnarea input[name="return-to-input"]:hover {
+	cursor: pointer;
+	background: #787777 url(resource/images/common_images/icon_arrow11.png) no-repeat left center;
+}
+#textPrivacyPolicy {
+	padding-top: 50px;
+	margin-bottom: 0;
+}
+#textPrivacyPolicy p {
+	font-size: 85%;
+	margin-bottom: 10px;
+}
+#areaCaution {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+#areaCaution p {
+	float: left;
+	color: #ce0000;
+}
+/*150408修正*/
+#areaCaution .textCaution {
+	width: 480px;
+	margin-bottom: 0;
+	padding-right: 30px;
+}
+#contact .sideLayerNavTitle {
+	margin-bottom: 30px;
+}
+#contents div#trust-form.contact-form h3:before {
+	content: "";
+	display: block;
+	margin-top: 40px;
+}
+/*150122追加*/
+#contents div#trust-form.contact-form .contactAgreement h3:before {
+	margin-top: 0;
+}
+/*=======================================
+#pressRelease
+=======================================*/
+/* #pressRelease
+*****************************/
+.articleDate {
+	font-size: 92%;
+	margin-bottom: 5px;
+}
+.articleDate span {
+	margin-right: 5px;
+	color: #787777;
+}
+#articleHeader h1 {
+	width: 700px;
+	font-size: 123%;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #b7b7b7;
+	margin-bottom: 15px;
+}
+ .irp-category-8 {display:none;}
+/* #socialarea
+*****************************/
+#socialarea {
+	float: right;
+}
+#socialarea li {
+	display: inline-block;
+	vertical-align: top;
+}
+#twarea {
+	padding-right: 5px;
+}
+#gparea {
+	padding-right: 5px;
+}
+#fbarea {
+	position: relative;
+	width: 105px;
+}
+/* #article
+*****************************/
+#article {
+	clear: both;
+	padding-top: 40px;
+	position: relative;
+}
+#article p,
+#article ul {
+	margin-bottom: 15px;
+	line-height:2.2;
+}
+#article h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#article li {
+	padding-left: 14px;
+	background: url(resource/images/common_images/icon_rhombus01.png) no-repeat 2px 4px;
+}
+/*  トップメッセージ / company/message  */
+#edit-area .message > div:first-child {
+    float: left;
+    width: 465px;
+}
+#edit-area .message div{
+    float: right;
+    width: 195px;
+}
+/*  ミッション・経営方針 / company/policy  */
+.philosophy{
+	text-align: center;
+	/* 20180528変更 font-size 21px→24px */
+	font-size: 24px;
+	/*color: #02368c;*/
+	display: block;
+	margin: 80px 0 !important;
+	font-weight: bold;
+}
+html[lang="en"] .philosophy{
+	font-size: 20px;
+}
+.philosophy span{
+	color: #333;
+	line-height: 2.5;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+/* 20200226 CSR追加・修正  */
+dl.csrlist dt {
+font-weight: bold;
+font-size: 15px;}
+
+dl.csrlist dd {
+border-left: #023a96 5px solid;
+font-weight: bold;
+font-size: 14px;
+line-height:1.6;
+padding:0 10px;}
+
+dl.csrlist dd span {
+font-weight:normal;
+	font-size:93%;
+display:block;}
+
+dl.csrlist dd + dd {
+	margin-top:20px;}
+
+.csrbox	.img p {
+	color:#023a96;
+	text-align:center;
+	font-size:115%;
+	line-height:1.6 !important;
+	font-weight:bold;}
+	
+.csrbox	.img p span{
+		display:block;
+		text-align:center;
+		font-size:85%;
+	font-weight:normal;}
+
+a.arrowlink{
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 6px center;
+	display: block;}
+
+@media screen and (min-width:769px){
+dl.csrlist dt {
+margin-bottom: 36px;}
+	
+/*.csrbox {
+	overflow:hidden;
+	margin-top: 50px;}
+	
+	.csrbox	.textdata {
+		width: 330px;
+		float: left;}
+	
+dl.csrlist {margin-bottom:40px;}	
+
+.csrbox	.img {
+	width: 293px;
+	float: right;}*/
+.csrbox {
+	display: table;
+	margin-top: 50px;}
+	
+.csrbox	.textdata {
+		width: 330px;
+	vertical-align: middle;
+	display: table-cell;}
+	
+dl.csrlist {margin-bottom:40px;}	
+
+.csrbox	.img {
+	width: 370px;
+	padding-left: 60px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	display: table-cell;}
+	
+.csrbox	img {
+	width: 100%;}}
+
+@media screen and (max-width:768px ) {
+.csrbox {
+	margin-top: 30px;}
+dl.csrlist {margin-bottom:20px;}
+.csrbox	.img {
+	padding:30px 20px 0;}
+dl.csrlist dt {
+margin-bottom: 20px;}
+	
+}
+
+/*  企業沿革 / company/story  */
+#edit-area .story li{
+	display: block;
+	vertical-align: top;
+}
+#edit-area .story li:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+#edit-area .story span{
+	display: inline-block;
+	width: 470px;
+}
+#edit-area .story span:first-child{
+	margin-right: 20px;
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+/*  役員紹介 / company/officer  */
+#edit-area .officer{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#edit-area .officer th{
+	background-color: #ededed;
+	padding: 12px ;
+	font-weight: normal;
+	width: 145px;
+	border-right: 2px solid #fff;
+}
+#edit-area .officer th.name{
+	width: 98px;
+}
+#edit-area .officer .sizel{
+	width: 430px;
+}
+#edit-area .officer td{
+	vertical-align: top;
+	padding:20px 15px;
+}
+
+/*20150514追加*/
+#edit-area .officer td .fontsmall {font-size:83%;
+padding-top:8px;}
+
+#edit-area .officer tr{
+	border-bottom: 1px dotted #b7b7b7;
+}
+#edit-area .officer tr.noborder {
+    border-bottom-style:none;
+}
+#edit-area .officer dd {
+    width: 270px;
+    margin-top: 10px;
+	padding-left: 105px;
+}
+#edit-area .officer dt:first-child,
+#edit-area .officer dt:first-child + dd{
+	margin-top: 0;
+}
+#edit-area .officer dd:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+#edit-area .officer dt {
+    float: left;
+	margin-top: 10px;
+    margin-right: 20px;
+    /*width: 70px;*/
+}
+.officer #edit-area .caution {
+	margin-bottom: 0;
+}
+ /*  コーポレート・ガバナンス / company/governance  */
+.governance .section.last {
+	margin-bottom: 0;
+}
+/*  事業・サービス概要 / company/service  */
+.service  #edit-area h5,
+.mission #edit-area h5 {
+	margin-bottom: -3px !important;
+}
+
+.mod-2clm.service {
+	margin:0 0 60px 0;}
+
+.mod-2clm.service .left{
+	/*width: 365px;*/
+width: 332px;
+}
+.mod-2clm.appli{
+	margin-bottom: 0;
+}
+.mod-2clm.appli div p{
+	margin-bottom: 0 !important;
+}
+
+.service .frame{
+	background-color: #dbdbdb;
+	padding:5px;
+}
+.service #edit-area .lead-text,
+.mission #edit-area .lead-text{
+	line-height: 2.0;
+	font-weight: bold;
+}
+.areaProvisions dl{
+	margin-top: -10px;
+	margin-top:20px;
+}
+.areaProvisions dl dt{
+	font-weight: bold;
+	padding-left: 20px;
+	font-size: 116%;/*2018.5.24追加*/
+	background: url(resource/images/common_images/icon_square01.png) no-repeat 0 6px;
+	margin-bottom: 5px;
+}
+.areaProvisions dd {
+	padding-left: 20px;
+	line-height: 1.9;
+}
+#edit-area .areaProvisions ol{
+	margin-top: 10px;
+}
+#edit-area .areaProvisions ol li{
+	font-weight: normal;
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_square01.png) no-repeat 0 6px;
+	margin-left: 0;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.service #edit-area h5 {
+	margin-bottom: 0;
+}
+/*200522変更　.service #edit-area .mod-3clm img{
+	padding-bottom: 5px;
+}*/
+.service .frame span{
+	font-size: 11px;
+}
+.service table{
+	width: 100%
+}
+.service table tr.end td,
+.service table td.end {
+	border-bottom:1px dotted #b7b7b7;
+}
+
+/*  141225　paddingを3pxに修正  */
+.service table td{
+	vertical-align: top;
+	padding: 3px 0;
+}
+
+/*  141225追加  */
+.service table tr.itemize td{
+font-size: 11px;
+}
+
+.travel-estate.mod-3clm{
+	width: 720px;}
+
+/*200520変更 .travel-estate.mod-3clm div{
+	width: 230px;
+	margin-right: 10px;
+}*/
+
+/*200520追加*/
+.travel-estate.mod-3clm div{
+	width: 190px;}
+
+.travel-estate.mod-3clm div .catch{
+	font-size:92%;}
+
+.travel-estate.mod-3clm strong{
+	display: block;
+margin-top:3px;}
+
+html[lang="ja"] .travel-estate.mod-3clm strong{
+	text-indent:-0.5em;}
+
+.travel-estate.mod-3clm div img{
+	display: block;
+}
+.mod-2clm.appli div{
+	width: 50%;
+}
+.mod-2clm.appli div p{
+	float: left;
+}
+.mod-2clm.appli div span{
+	margin-top: 20px;
+	display: block;
+}
+.mod-2clm.appli div img{
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+
+/*  200522追加  */
+@media screen and ( min-width:769px ){
+.pcmTop50{margin-top:50px !important;}
+	
+.travel-estate.mod-3clm{
+margin-bottom:40px;}
+	
+#edit-area h4 + .mod-3clm{
+	margin-top:40px;}
+	
+.travel-estate.mod-3clm div + div{
+	margin-left: 65px;}
+}
+
+
+@media screen and ( max-width:768px ) {
+.mod-2clm.service div.left p{
+	margin-bottom: 20px !important;
+}	
+
+.travel-estate.mod-3clm br {
+	display:none;
+}
+
+	.travel-estate.mod-3clm a {
+	display:block;
+	text-align:center;
+}
+
+	
+}
+
+/*  181227　ミッション変更  */
+.missionimg img {
+	width: 338px;}
+
+#edit-area ul.valuelist li{
+list-style-type: none;
+margin-left:0;}
+
+#edit-area ul.valuelist li + li {
+	margin-top: 8px;}
+
+#edit-area ul.valuelist li.mtop35 {
+	margin-top: 35px;}
+
+#edit-area ul.valuelist li span {
+	display: inline-block;
+	padding-left: 30px;}
+
+
+.establishment.mod-2clm{
+	margin: 40px 0 30px 0;
+}
+.establishment.mod-2clm .left{
+	width: 470px;
+	margin-right: 20px;
+}
+.establishment #edit-area .txt-mission{
+	margin-bottom: 50px;
+	color: #004894;
+	font-weight: bold;
+}
+.establishment #edit-area .areaProvisions ol{
+	margin: 20px 0 0;
+}
+.establishment.mod-2clm td{
+	padding:10px 0;
+	line-height: 1.9;
+}
+.establishment.mod-2clm th{
+	font-size: 16px;
+	line-height: 1;
+	padding: 10px 0;
+	width: 90px;
+	font-weight: normal;
+	vertical-align: top;
+}
+.establishment.mod-2clm span{
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+.establishment.mod-2clm .month {
+	width: 50px;
+	vertical-align: top;
+}
+/* 150310追加 */
+.establishment-head {
+	font-size: 18px !important;
+	font-weight: normal !important;
+}
+.establishment.topics{
+	margin: 10px 0 30px 0;
+}
+#edit-area .topicsareaProvisions ol {
+	margin-top: 30px;
+}
+#edit-area .topicsareaProvisions ol li {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
+	background: url(resource/images/common_images/icon_square01.png) no-repeat 0 10px;
+	margin-left: 0;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.establishment.topics td{
+	padding:10px 0;
+	line-height: 1.5;
+}
+.establishment.topics th{
+	font-size: 16px;
+	line-height: 1;
+	padding: 10px 0;
+	width: 90px;
+	font-weight: normal;
+	vertical-align: top;
+}
+.establishment.topics .month {
+	width: 50px;
+	vertical-align: top;
+}
+.topics{
+	margin-bottom: 20px;
+}
+.topics + p{
+	margin-bottom: 60px !important;
+}
+.topics td{
+	padding:5px 20px;
+	vertical-align: top;
+}
+.topics td:first-child{
+	width:50px;
+}
+.topics td:first-child+td{
+	width: 31px;
+}
+.online-to-office.mod-2clm{
+	margin:40px auto;
+	width: 500px;
+}
+.online-to-office.mod-2clm .left{
+	margin-right: 40px;
+}
+.icons.mod-2clm .left{
+	width: 500px;
+	margin-right:29px;
+}
+.related-info:after{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+#edit-area .related-info{
+	margin-top:60px;
+	border: 1px solid #b7b7b7;
+	padding: 5px;
+}
+#edit-area .related-info li{
+	float: left;
+	padding: 2px;
+	margin: 0 10px 0 0 ;
+	list-style-type: none ;
+}
+#edit-area .related-info li:first-child{
+	background-color: #4c4b4b;
+	color: #fff;
+	text-align: center;
+}
+/*  所在地・地図   /company/map */
+.map #edit-area ul li{
+	list-style: none
+}
+.map #map_canvas{
+	margin-bottom: 30px;
+}
+.map #map_canvas2 + p{
+	margin-bottom: 0;
+}
+.map .sp_map_apps a { /* 20170911 sp最適化に伴う追加 */
+   display: none;
+}
+html[lang="en"] .profile .overviewTableStyle{
+	margin-bottom: 30px;
+}
+
+/*  IR・投資家情報 /ir  */
+#edit-area .ir-pulldown-list {position:relative;width:129px;background:url('resource/images/page_images/ir-list-pulldown.gif') no-repeat left top !important;}
+.release-ir #edit-area .ir-pulldown-list {margin-bottom: 20px;}
+#edit-area .ir-pulldown-list p {padding-left:10px;height:27px;margin:0;line-height:2.2;}
+#edit-area .ir-pulldown-list ul {width:127px;z-index:550;background:#dedede;border:1px solid #B7B7B7;border-width:0 1px 1px 1px;position:absolute;left:0;top:27px;margin:0;padding:0;list-style:none;}
+#edit-area .ir-pulldown-list ul a:link, .ir-pulldown-list ul a:visited {display:block;padding:8px 5px 8px  25px;background-color:#fff;text-decoration:none;font-weight:normal;background-repeat:no-repeat;background-position:10px center;background-image:url('resource/images/common_images/icon_arrow06.png');}
+#edit-area .ir-pulldown-list ul a:hover, .ir-pulldown-list ul a:active {background-color:#efefef;}
+#edit-area .ir-pulldown-list {height:27px;overflow:hidden;}
+#edit-area .ir-pulldown-list ul li{margin:0;list-style: none; }
+#edit-area .ir-pulldown-list ul li a{border-top: 1px dotted #b7b7b7;}
+#edit-area .ir-pulldown-list ul li:first-child{border-top:none;}
+#edit-area .ir-pulldown-list:hover {overflow:visible;}
+#edit-area html>body .ir-pulldown-list {display:block;}
+.ir #edit-area ul li{
+	margin-left: 0;
+}
+.ir .btn_material_dl a{
+	background-position: 13px 6px ;
+}
+.ir .btn_material_movie a{
+	background-position: 22px 7px;
+}
+html[lang="en"] .irp-library-category,
+html[lang="en"] .irp-library-category li{
+	margin-bottom: 0 !important;
+}
+html[lang="en"] .ir .btn_material_movie a{
+	background-position: 16px 7px;
+}
+html[lang="en"] .ir #irp-library-latest-5{
+	margin-bottom: 50px !important;
+}
+html[lang="en"] .ir .section,
+html[lang="en"] .ir .investerRelations02 .investerLinkList{
+	margin-bottom: 0 !important;
+}
+.irp-calendar-year{
+    border-bottom:1px solid #b7b7b7;
+    display: block;
+    font-size: 115%;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 30px;
+}
+.irp-calendar-item {
+    border-bottom:1px dotted #b7b7b7;
+    padding:20px 0;
+}
+.irp-calendar-date {
+    float: left;
+    width: 140px;
+}
+.taglist {
+    color: #FFFFFF;
+    display: block;
+    font-size: 10px;
+	margin-bottom: 50px !important;
+	padding-bottom: 0;
+    padding-top: 10px;
+}
+.taglist span{
+	display: inline-block;
+	padding: 0 5px;
+}
+.tag-release{
+	background-color:#17749F;
+	margin-right: 5px;
+}
+.tag-tanshin{
+	background-color:#3B6F22;
+}
+.taglist .text{
+	color: #333;
+	font-size: 12px;
+	padding:0 0 0 5px;
+}
+/*  よくあるご質問 /ir/faq  */
+#edit-area .questionsList li{
+	list-style: none;
+}
+ #edit-area .answersList {
+	margin-bottom: 0;
+}
+#edit-area .questionsList li:before,
+#edit-area .answersList li .question:before{
+	content:"Q.";
+	font-family:arial;
+	font-size: 21px;
+	color: #b7b7b7;
+	margin-right: 8px;
+}
+#edit-area .answersList li .question{
+	margin-bottom: 15px;
+	/* 20170911 追加 */
+	padding-left: 2.3em;
+	text-indent: -2.3em;
+}
+#edit-area .answersList li .answer:before{
+	content: "A.";
+	font-family:arial;
+	font-size: 21px;
+	color: #b7b7b7;
+	margin-right: 10px;
+}
+#edit-area .answersList li{
+	border-bottom: 1px dotted #b7b7b7;
+	list-style: none;
+	padding:15px 0;
+}
+#edit-area .answersList li:first-child {
+	padding-top: 0;
+}
+#edit-area .answersList li span{
+	display: block;
+}
+/*  IRライブラリ  /ir/library  */
+#edit-area .ir-bulk{
+	border:1px solid #b7b7b7;
+	margin-bottom: 50px;
+	padding:1px;
+}
+#edit-area .ir-bulk .ttl{
+	background-color: #002562;
+	color:#fff;
+	padding: 5px 10px;
+	display: block;
+}
+#edit-area .ir-bulk .inner{
+	padding:15px 20px;
+}
+#edit-area .ir-bulk .inner h5{
+	font-weight: bold;
+	margin: 0;
+}
+#edit-area .ir-bulk .mod-2clm{
+	margin: 0;
+}
+#edit-area .irp-category-7{
+	display: none;
+}
+#edit-area .ir-bulk .inner .left{
+	width: 476px;
+	margin-right: 20px;
+}
+#edit-area .ir-bulk .inner .left ul{
+	margin: 0;
+}
+#edit-area .ir-bulk .inner .left li{
+	list-style: none;
+}
+#edit-area .ir-bulk .inner .right {
+    width: 160px;
+}
+#edit-area .ir-bulk .inner .right p {
+    margin-bottom: 5px;
+}
+#edit-area .ir-bulk .inner .right .caution {
+    font-size: 10px;
+}
+#edit-area #irp-library-term-list-new li,
+#edit-area #irp-library-quarter-list li{
+	list-style: none;
+	margin:10px 0;
+}
+#edit-area #irp-library-quarter-list .irp-date{
+	font-size: 11px;
+}
+li a[ href*="xls"] {
+	text-decoration: none;
+}
+li span a[ href*="xls"] {
+	text-decoration: underline;
+}
+
+/*  2017.12.27追加 */
+#edit-area .irp-category h3 {
+	margin-bottom:20px !important;
+}
+#edit-area .irp-category ul {
+	margin: 0 0 50px !important;
+}
+
+/*  株主のメリット  /ir/indibidual/merit  */
+.merit #edit-area p {
+	margin-bottom: 50px;
+}
+.merit #edit-area p.last {
+	margin-bottom: 0;
+}
+.merit #edit-area p + p {
+	margin-top: -40px;
+}
+/*  業績・利用者情報  /ir/highlight  */
+.highlight #edit-area .map{
+	margin: 30px;
+}
+/*  業績ハイライト 通期・四半期  /ir/highlight-q  */
+.highlight-q #irp-graph-fy_highlight2,
+.highlight-q #irp-graph-4q_highlight2{
+	margin: 20px;
+}
+/* 20170911 sp最適化に伴う追加 */
+.highlight #irp-graph-fy_highlight2,
+.highlight #irp-graph-4q_highlight2,
+.highlight #irp-graph-en_fy_highlight2,
+.highlight #irp-graph-en_4q_highlight2{
+	margin: 20px 20px 50px;}
+
+/*  電子公告 /ir/announce  */
+.announce #edit-area p.last {
+	margin-bottom: 0 !important;
+}
+
+/*  IRカレンダー /ir/calendar  */
+.calendar p.alignright {
+	margin-bottom: 0 !important;
+}
+/*  運営サイト利用者情報  /ir/highlight/traffic  */
+/* 170112追加 */
+.traffic #edit-area h3 {
+	margin-bottom:20px;}
+
+.traffic #edit-area .traffic-list{
+	padding-left: 20px;
+	margin: 0 0 10px 0 ;
+}
+.traffic #edit-area ul li{
+	list-style: none;
+}
+.traffic #edit-area ul + p {
+	/*margin-bottom: 50px;*/
+}
+html[lang="en"] .traffic .irp-library-category {
+	margin-bottom: 0 !important;
+}
+.traffic ul + p + p {
+	margin-bottom: 0 !important;
+}
+
+/*  株主・株式情報  /ir/info-2  */
+#edit-area .status{
+	margin-bottom: 20px;
+}
+#edit-area .status td:first-child{
+	width: 250px;
+}
+.info #edit-area ol li{
+	list-style: decimal;
+	margin-left:20px;
+}
+#edit-area .owner{
+	margin-bottom: 20px;
+	width: 100%;
+}
+#edit-area .owner tr{
+	border-bottom: 1px dotted #b7b7b7;
+}
+#edit-area .owner tr:first-child th:first-child{
+	text-align: left;
+	width: 400px;
+}
+#edit-area .owner th{
+	background-color: #ededed;
+	font-weight: normal;
+	padding: 3px 10px;
+	text-align: center;
+	border:2px solid #fff;
+}
+#edit-area .owner td{
+	padding: 15px 10px;
+	vertical-align: top;
+	text-align: right;
+}
+#edit-area .owner td:first-child{
+	text-align: left;
+}
+.info #edit-area .overviewTableStyle{
+	margin-bottom: 0;
+}
+.info #edit-area .overviewTableStyle th{
+	width: 215px;
+}
+/*  アナリストガバレッジ  /ir/stock/analyst  */
+#edit-area .analyst{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#edit-area .analyst td:first-child{
+	width: 350px;
+	padding: 10px 0;
+}
+#edit-area .analyst tr{
+	border-bottom: 1px solid #ddd;
+}
+.analyst ul.caution {
+	margin-bottom: 0 !important;
+}
+/*  プレスルーム  /press  */
+.archive .articleListArea {
+	margin-top: 10px;
+	margin-bottom: 0 !important;
+}
+.press #edit-area li,
+#edit-area .articleListArea li,
+.release #edit-area li{
+	list-style: none;
+	margin-left:0;
+}
+.press .articleListArea span {
+    display: block;
+    margin-left: 130px;
+}
+.archive #edit-area .media span:first-child,
+.press #edit-area .media span:first-child,
+.press .articleListArea span:first-child{
+	margin:0;
+}
+.press #contents .head-desc{
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 30px;
+}
+.press #edit-area .sectionHeaderLink{
+	font-weight: normal;
+	font-size: 12px;
+	margin-bottom: 0;
+	position: relative;
+	top: 10px;
+	line-height: 1;
+}
+.press #edit-area .media {
+	margin-bottom: 0;
+}
+.archive #edit-area .media p,
+.press #edit-area .media p{
+	margin-left: 185px;
+	margin-bottom: 0;
+}
+.archive #edit-area .media .iconbase,
+.press #edit-area .media .iconbase{
+	margin-left: 10px;
+	float: left;
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 41px;
+	height: 16px;
+	font-size: 11px;
+}
+.media .iconbase.web{
+	background-color: #17618b;
+}
+.media .iconbase.tv{
+	background-color: #518928;
+}
+.media .iconbase.newspaper{
+	background-color: #8c0017;
+}
+.media .iconbase.magazine{
+	background-color: #d85c28;
+}
+.media .iconbase.radio{
+	background-color: #583a6d;
+}
+/*  個人投資家の皆様へ  /ir/individual  */
+/* 201709 修正*/
+#edit-area .individual-top{
+	margin-bottom: 40px;
+}
+#edit-area .individual-top .ttl{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.individual .linkButton {
+	overflow:hidden;}
+
+.individual .linkButton a {
+	display:block;
+	border:#bfbebe 2px solid;
+	padding:20px;
+	box-sizing:border-box;
+	font-size: 16px;
+	width:335px;
+	color:#333;
+	text-decoration:none;
+text-align:center;}
+
+html[lang="en"] .individual .linkButton a{
+  font-size: 15px;}
+
+.individual .linkButton a:hover {
+	background-color:#6b80a4;
+border:#6b80a4 2px solid;
+color:#fff;}
+
+.individual .linkButton .left{
+	float:left;}
+
+.individual .linkButton .right {
+	float:right;}
+
+/*.individual #edit-area .ir-download{
+	margin-bottom: 5px;
+}*/
+
+.individual #edit-area .ir-download-head {
+margin-bottom: 5px;}
+
+.individual #edit-area .linkButton .ir-download-date {
+font-size:11px;
+display:block;
+line-height:1.5}
+
+.individual #edit-area .servicelist li {
+	list-style:none;
+	overflow:hidden;
+margin-bottom: 30px;
+}
+
+.individual .servicelist li img {
+	float:left;}
+
+.individual .servicelist li p.text {
+	float:right;
+	width:510px;}
+
+.individual .link-etcService {
+	text-align:right;
+padding-bottom:50px;}
+
+.individual .link-etcService a{
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+padding-left:10px;}
+
+.individual .mbtm50{
+	margin-bottom:50px;}
+.individual .mbtm20{
+	margin-bottom:20px;}
+.individual .heightValue {
+	height:90px;}
+
+.individual .linkButton a.alignL {
+text-align:left;
+display:block;}
+
+#edit-area .presentation-movie{
+	padding: 10px;
+	border:1px solid #b7b7b7;
+	margin-bottom: 20px;
+}
+#edit-area .presentation-movie .left{
+	width: 500px;
+	line-height: 1.2;
+}
+.individual #edit-area .btn_base{
+	width: 160px;
+	margin-bottom:0;
+	padding: 5px 0;
+}
+
+/* 201812 追加 説明会動画*/
+.individual .movBox {
+	width: 700px;
+	margin-bottom:40px;
+	overflow: hidden;}
+
+.individual .movBox .alignL {
+	float: left;
+	width: 350px;}
+
+.individual .movBox .alignL p.day{
+font-size: 108%;
+margin-bottom: 5px !important;}
+
+.individual .movBox .alignL p.title{
+font-size: 139%;
+font-weight: bold;
+margin-bottom: 0 !important;}
+
+.individual .movBox .alignL p.name{
+font-size:124%;
+margin-bottom: 25px !important;
+}
+
+.individual .movBox .btn a {
+width: 330px;
+text-align: center;
+background:#6b80a4;
+display:inline-block;
+color:#fff;
+font-size: 92%;
+padding:10px 0;
+box-sizing: border-box;
+text-decoration:none;}
+
+.individual .movBox .btn a span {
+background:url(resource/images/common_images/icon_movie01.png) no-repeat left center;
+display:inline-block;
+padding-left:20px;}
+
+.individual .movBox .btn a:hover { background:#97a6bf;}
+
+.individual .movBox .alignL p.note{
+font-size: 92%;}
+
+.individual .movBox .alignR {
+	float: right;
+	width: 330px;}
+
+/* 201812 追加 説明会動画 ここまで*/
+
+/*.individual #edit-area .ir-download ul{
+	margin: 0;
+}
+.individual #edit-area .ir-download li{
+	float: left;
+	margin-right: 8px;
+	list-style: none;
+	min-width: 116px; 20141007下宮追記
+	list-style: none;
+}*/
+/* 150317 追加*/
+.individual #edit-area .ir-download li:before {
+    content: '・';
+}
+.individual #edit-area .investerRelations03{
+	width: 220px;
+	height: 120px;
+	margin-right: 13px;
+	margin-top: 30px;
+	float: left;
+}
+.individual #edit-area .investerRelations03 a {
+	text-decoration: none
+}
+.individual #edit-area .investerRelations03 .mod-2clm{
+	margin: 0;
+}
+.individual #edit-area .investerRelations03 .left{
+	width: 100px;
+}
+.individual #edit-area .investerRelations03 .right{
+	width: 120px;
+}
+/*  ビジネスモデル  /ir/individual/businessmodel  */
+.businessmodel strong{
+	display: block;
+}
+.businessmodel #edit-area h5{
+	font-weight: normal;
+	border-bottom: 1px dotted #b7b7b7;
+}
+.businessmodel #edit-area p.mb50{
+	margin-bottom: 50px;
+}
+.businessmodel #edit-area p.last{
+	margin-bottom: 0;
+}
+/*  個人情報保護方針  /privacy  */
+.privacy .areaProvisions dd.right{
+	margin:15px 0 0 auto;
+	width: 170px;
+	display: block;
+}
+.privacy .mod-2clm{
+	margin-top:40px;}
+
+/* 2021.01.29追加 */
+.privacy .mod-2clm .left {
+	line-height:1.9;}
+
+@media screen and (max-width: 768px){
+.privacy .mod-2clm .right {
+text-align:center;
+width:100%;
+margin-top:20px;}
+}
+/* 2021.01.29追加ここまで */
+
+.privacy #edit-area p.last{
+	margin-bottom:0;
+}
+/*  個人情報の取り扱いについて  /privacy/about  */
+.about #edit-area table{
+	margin: 20px 0;
+}
+.about #edit-area ol + table{
+	margin-bottom: 0;
+}
+.about #edit-area table .none {
+	margin: 0;
+}
+.about #edit-area table .none td{
+	padding:0 0 5px 0;
+	background: none;
+}
+.about #edit-area table .none td:first-child{
+	width: 20px;
+	vertical-align: top;
+}
+.about #edit-area .owner th,
+.about #edit-area .owner td{
+	text-align: left;
+}
+.about #edit-area .owner tr:first-child th:first-child{
+	width:30px;
+}
+.about #edit-area .areaProvisions .caution{
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+}
+.about #edit-area .owner .types{
+	width: 300px;
+}
+.about .overviewTableStyle th{
+	width: 200px;
+}
+.about #edit-area h3{
+	line-height: 1.3;
+	padding-bottom: 5px;
+}
+.about #edit-area .areaProvisions li{
+	list-style: none;
+}
+.about .overviewTableStyle td a{
+	background: none;
+	padding: 0;
+}
+.contact #edit-area .contactAgreement h3,
+#edit-area .contactAgreement h3 {
+	border:none;
+	margin: 0;
+	font-size: 13px;
+}
+.contact #edit-area .contactAgreement ul{
+	margin: 0;
+}
+.contact #edit-area .contactAgreement li{
+	list-style: none;
+}
+/*  サイトマップ   /sitemap */
+.sitemap .mod-2clm {
+	margin-bottom: 0;
+}
+#edit-area .sitemap-list h3 {
+	margin-top: 20px;
+}
+#edit-area .left .sitemap-list:first-child h3,
+#edit-area .right .sitemap-list:first-child h3 {
+	margin-top: 0;
+}
+#edit-area .right .sitemap-list > ul {
+	margin-bottom: 0;
+}
+.sitemap #edit-area .sub-menu{
+	display: block;
+}
+.sitemap #edit-area .mod-2clm div{
+	width: 320px;
+}
+.sitemap #edit-area .mod-2clm .left {
+	margin-right: 10px;
+}
+.sitemap #edit-area .sitemap-list li{
+	list-style:none;
+	margin:0 0 12px 0;
+}
+.sitemap #edit-area .sitemap-list ul.last,
+.sitemap #edit-area .sitemap-list li.last {
+	margin-bottom: 0;
+}
+.sitemap #edit-area .sitemap-list .sub-menu{
+	margin:10px 0 0 20px;
+}
+
+/*  採用情報   /recruit */
+.recruit_banner{
+	width: 700px;
+	display: block;
+	margin:50px auto 40px;}
+
+.recruit_banner strong {
+	font-size:14px;}
+
+.recruit_banner a {
+display:block;
+margin-top:15px;}
+
+.recruit .areaProvisions + p {
+	margin-bottom: 0 !important;
+}
+/*  トップメッセージ   ir/individual/message */
+#edit-area .ir-message{
+	margin-bottom: 0;
+}
+
+#edit-area .ir-message .left{
+	width: 460px;
+}
+#edit-area .ir-message .left h3{
+	border: none;
+	margin: 0 0 15px;
+}
+#edit-area .ir-message p.last,
+#edit-area .message p.last{
+	margin-bottom: 0;
+}
+
+/* IRリリース  ir/release-ir  */
+.release-ir #irp-press-latest-list .irp-date{
+	float: left;
+}
+.release-ir .irp-press-list .irp-title-block{
+	float: none;
+}
+
+/* プレスリリース  press 20171228追加  */
+  .articleListArea + h3 {
+    margin-top: 50px !important;
+  }
+.articleListArea li {
+	line-height:1.9;}
+
+/**
+ * 企業沿革
+ */
+body.story .overviewTableStyle {
+	margin-bottom: 0;
+}
+body.story .overviewTableStyle dl {
+	display: block;
+	position: relative;
+}
+body.story .overviewTableStyle dl > * {
+	position: relative;
+	margin-bottom: .5em;
+}
+body.story .overviewTableStyle dt {
+	display: block;
+	width: 8%;
+	margin-right: 4%;
+	text-align: right;
+	float: left;
+	clear: left;
+}
+body.story .overviewTableStyle dd {
+	display: block;
+	float: left;
+	width: 88%;
+}
+
+/*  404ページ  */
+.link-404 {
+	margin-top: 50px;
+	padding-top: 40px;
+	border-top: 1px solid #b7b7b7;
+}
+
+.link-404 li a {
+	padding-left: 10px;
+	background: url(resource/images/common_images/icon_arrow06.png) no-repeat 0 center;
+	line-height: 2.0;
+}
+
+/*  141125追加  */
+#edit-area .answersList .answer {
+    padding-left: 2.3em;
+    text-indent: -2.3em;
+}
+/*  141212追加  */
+.historyTableStyle th {
+    width: 80px;
+    font-weight: normal;
+    vertical-align: top;
+    padding: 15px 15px 0;
+    background: #ededed url(resource/images/common_images/bg_table.png) repeat-x bottom;
+}
+/* 170112 paddingbottom 15px→0 */
+.historyTableStyle td {
+    width: 605px;
+    padding: 15px 0 0 15px;
+    background: url(resource/images/common_images/bg_table.png) repeat-x bottom;
+}
+.overviewTableStyle {
+    margin-bottom: 0;
+}
+.historyTableStyle dl {
+    display: block;
+    position: relative;
+}
+.historyTableStyle dl > * {
+    position: relative;
+    margin-bottom: 18px;
+}
+.historyTableStyle dt {
+    display: block;
+    width: 8%;
+    margin-right: 4%;
+    text-align: right;
+    float: left;
+    clear: left;
+}
+.historyTableStyle dd {
+    display: block;
+    float: left;
+    width: 88%;
+}
+/* 150217追加 */
+.analyst-caution li {
+    margin: 0 0 5px 0 !important;
+    padding-left: 1em;
+    list-style-type: none !important;
+    text-indent: -1em;
+}
+.analyst-caution li:before {
+    content: '・';
+}
+/* 150316追加 */
+.ir-material-head {
+    font-size: 13px !important;
+    margin-bottom: 10px !important;
+}
+.ir-material-text {
+    font-size: 13px !important;
+}
+
+/* 150326追加 */
+/*.firsttimeMovie {margin:10px 0 0 50px;}*/
+
+/* 151021追加 */
+.img2clmBox,
+.img3clmBox {margin:40px auto;}
+.img2clmBox .left,
+.img3clmBox .left {float: left;}
+.img2clmBox .right {float: right;}
+
+.w545 {width:545px;}
+.w450 {width:450px;}
+.w190 {width:190px;}
+.w200 {width:200px;}
+.w280 {width:280px;}
+.w615 {width:615px;}
+.w285 {width:285px;}
+.w305 {width:305px;}
+.w400 {width:400px;}/* 180611追加 */
+.mTop40 {margin-top:40px;}
+.mRight20 {margin-right:20px;}
+
+.alignL {text-align:left;}
+.alignC {text-align: center;}
+
+/* 160623追加 */
+.message .messageTitle
+ {margin: 0 0 15px;
+font-size: 115%;
+font-weight: bold;
+line-height: 2.0;
+display: block;}
+
+/* 160628追加 */
+.alignR {text-align:right;}
+.mTop20 {margin-top:20px;}
+
+/*20170807追加*/
+.moveBtn {
+border:#d7d7d7 1px solid;
+padding:15px;
+overflow:hidden;
+margin-bottom:30px;}
+
+/*20190802修正*/
+.moveBtn a {
+background:#6b80a4;
+display:block;
+color:#fff;
+font-size: 92%;
+padding:10px;
+text-decoration:none;
+width:220px;
+text-align:center;
+float:right;
+box-sizing:border-box;}
+
+.moveBtn a span.fileicon {
+background:url(../../uploads/2019/08/file_icon.png) no-repeat left center;
+display:inline-block;
+padding-left:16px;}
+
+.moveBtn a span {
+background:url(resource/images/common_images/icon_movie01.png) no-repeat left center;
+display:inline-block;
+padding-left:20px;}
+
+.moveBtn a:hover { background:#97a6bf;}
+
+#edit-area .moveBtn p {
+margin-bottom:0;}
+
+.moveBtn .text {
+width:400px;
+float:left;}
+
+/*  事業概要 /ir/overview  201709 追加*/
+#overview .companyName,
+#overview .subMedia2,
+#overview .subMedia3,
+#overview .serviceLink {
+	overflow:hidden;}
+
+#overview .companyName {
+padding:15px 0 30px 0;}
+
+#overview .companyName img {
+float:left;
+padding-right:20px;}
+
+#overview .companyName p {
+float:left;
+padding-top:10px;}
+
+#overview .frame {
+padding:8px 10px 5px;
+margin-bottom:15px;
+font-weight:bold;}
+
+#overview .data {
+font-weight:bold;}
+
+#overview .frame span,
+#overview .data span {
+font-weight:normal;}
+
+#overview dl.businessModel dt{
+font-weight:bold;
+margin-bottom:5px;}
+
+#overview dl.businessModel dd {
+margin-bottom:15px;
+line-height: 1.9;}
+
+#overview .font11 {
+font-size:11px;}
+
+#overview .subMedia2,
+#overview .subMedia3 {
+margin-bottom:50px;
+margin-top:30px;}
+
+#overview .subMedia3 div {
+float:left;
+text-align:center;
+width:210px;
+margin-right:35px;}
+
+#overview .subMedia2 div {
+text-align:center;
+width:310px;
+margin-right:35px;}
+
+#overview .subMedia2 div.left{
+float:left;}
+
+#overview .subMedia2 div.right{
+float:right;}
+
+#overview .subMedia2 div p,
+#overview .subMedia2 div dl,
+#overview .subMedia3 div p,
+#overview .subMedia3 div dl {
+text-align:left;}
+
+#overview .subMedia3 .end,
+#overview .serviceLink a.end{
+margin-right:0;}
+
+#overview .subMedia3 div dl {
+padding:12px;
+box-sizing:border-box;
+background-color:#ededed;
+font-size:11px;}
+
+#overview .subMedia2 div dl{
+padding:12px 18px;
+box-sizing:border-box;
+background-color:#ededed;
+font-size:12px;}
+
+/*20171228追加*/
+#overview .subMedia2 div dl dd
+{padding-top: 5px;}
+
+#overview .serviceLink {
+margin:40px 0 50px;}
+
+#overview .serviceLink a {
+display:block;
+width:160px;
+height:85px;
+margin-right:20px;
+float:left;
+font-size:10px;
+color:#7d7d7d;
+text-decoration:none;
+margin-bottom:20px;}
+
+#overview .serviceLink a img {
+	display:block;
+	margin-bottom:8px;}
+
+#overview .column2 .left {
+	float:left;
+	width:210px;}
+#overview .column2 .right{
+	float:right;
+	width:455px;}
+/*  役員紹介 /company/officer  20190621 修正*/
+@media screen and (min-width:769px){
+.officerboedr {
+border-bottom:#b7b7b7 1px solid;
+padding-bottom:40px;
+margin-bottom:40px;}
+
+.officerBox {
+width: 700px;
+display: table;
+/*margin-bottom: 30px;*/
+/*border-bottom:#b7b7b7 1px dotted;*/ }
+
+.officerList {
+display: table-cell;
+width: 350px;
+/*padding-bottom: 20px;*/
+padding: 30px 20px;
+box-sizing: border-box;}
+	
+.officerList.left  {
+border-right: #b7b7b7 1px dotted;}
+	
+#edit-area .execution li:nth-of-type(even) {
+margin-left:20px;}
+	
+html[lang*="ja"] #edit-area .execution li{
+   height:100px;}
+
+html[lang="en"] #edit-area .execution li{
+   height:150px;}
+}
+
+.officerList .position {
+  /*font-weight: bold;*/
+  box-sizing: border-box;
+/*  width: 160px;*/
+margin-bottom: 10px;
+}
+.officerList .position span {
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.8;
+  display: block;
+}
+.officerList .name {
+  box-sizing: border-box;
+ font-weight: bold;
+/*  width: 120px;*/
+font-size:124%;
+margin-bottom:40px;
+}
+.officerList .career {
+  /*width: 410px;*/}
+
+.officerList .career li {
+	display: table;}
+
+.officerList .career li span {
+  display: table-cell;
+	line-height:1.8;
+  padding-top: 15px;}
+
+.officerList .career li .year {
+  box-sizing: border-box;
+  width: 110px;
+  padding-right: 10px;
+  vertical-align: top;}
+
+.officerList .career li .data {
+  width: 230px;}
+
+#edit-area .execution h3 {
+	border-bottom:none;
+margin:80px 0 20px;}
+
+#edit-area .execution li {
+	width:340px;
+	padding:15px;
+	text-align:center;
+	box-sizing:border-box;
+	 border: 1px solid #b7b7b7;
+	float:left;
+list-style:none;
+margin-left:0;
+margin-bottom:20px;}
+
+
+#edit-area .execution li span {
+	display:block;
+	font-size:124%;
+	text-align:center;
+	margin-top:10px;}
+
+
+
+@media screen and ( max-width:768px ) {
+	#edit-area .execution li {
+	width:100%;
+	height:auto;}}
+/* 20170911 sp最適化に伴う追加 */
+.sp_move_images {
+  display: none;
+}
+@media screen and (min-width:769px){
+/* youTube 2018.11.21追加*/
+.youTube {
+margin: 10px auto 30px;
+	width: 560px;}}
+
+/* ウィンドウ幅が768pxの場合に適用するCSS */
+@media screen and ( max-width:768px ) {
+/* youTube 2018.11.21追加*/
+.youTube {
+  margin-bottom: 30px;}
+
+.youTubeWrap {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom:30px;}
+
+.youTube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;}
+	
+  .philosophy {
+    line-height: 1.7 !important;
+    margin: 50px 0 !important;
+  }
+  .philosophy span {
+    line-height: 1.7;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .message {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+
+  #edit-area .message > div:first-child {
+    float: none;
+    width: auto;
+  }
+  #edit-area .message .message-text {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+     -webkit-order: 2;
+             order: 2;
+  }
+  #edit-area .message .message-pic {
+    margin: 10px auto 10px;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+     -webkit-order: 1;
+             order: 1;
+  }
+  .relatedBox {
+    width: auto;
+  }
+  .service #edit-area .lead-text {
+    line-height: 1.7;
+  }
+  .mod-2clm.service .left {
+    float: none;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .mod-2clm.service .right {
+    float: none;
+    width: auto;
+/*200522追加*/
+	margin-top:30px;
+  }
+  .mod-3clm.service div {
+    float: none;
+  }
+  .travel-estate.mod-3clm {
+    width: auto;
+  }
+  .travel-estate.mod-3clm div {
+    float: none !important;
+    width: auto;
+    margin: 0 0 35px 0;
+    text-align: center;}
+
+	.travel-estate.mod-3clm div.right{
+		margin:0;}	
+	
+  .travel-estate.mod-3clm strong {
+    text-align: center;
+  }
+  .historyTableStyle {
+    width: 100%;
+  }
+  .historyTableStyle th {
+    padding: 15px 10px 0;
+    white-space: nowrap;
+  }
+  .historyTableStyle td {
+    width: auto;
+    padding: 15px 0 0 10px;
+  }
+  .historyTableStyle dt {
+    width: 15%;
+    white-space: nowrap;
+  }
+  .historyTableStyle dd {
+    width: 80%;
+  }
+  .establishment-head {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding-bottom: 3px;
+  }
+  .establishment.mod-2clm {
+    margin: 30px 0 30px 0;
+  }
+  .establishment.mod-2clm .left {
+    width: auto;
+    margin-right: 0;
+  }
+  .establishment.mod-2clm th {
+    font-size: 14px;
+    width: 60px;
+    padding-top: 14px;
+  }
+  .establishment.mod-2clm td {
+    line-height: 1.9;
+  }
+  .establishment.mod-2clm .month {
+    width: 35px;
+  }
+  #edit-area .topicsareaProvisions ol li {
+    font-size: 14px;
+    background-position: 0 6px;
+  }
+  .establishment.topics {
+    margin: 0 0 15px 0;
+  }
+  .establishment.topics th {
+    font-size: 14px;
+    width: 60px;
+    padding-top: 13px;
+  }
+  .topicsareaProvisions .w545 {
+    width: auto;
+  }
+  .topicsareaProvisions .img2clmBox {
+    margin: 30px auto;
+  }
+  .topicsareaProvisions .img2clmBox .left {
+    float: none;
+  }
+  .topicsareaProvisions .img2clmBox .right {
+    float: none;
+  }
+  .topicsareaProvisions .w450,
+.topicsareaProvisions .w400/*180611追加*/  {
+    width: auto;
+  }
+  .topicsareaProvisions .w200 {
+    width: auto;
+  }
+  .w305 {
+    width: auto;
+  }
+  .sp_align_center {
+    text-align: center;
+  }
+  .sp_td_images {
+    display: none;
+  }
+  .sp_move_images {
+    display: block;
+    text-align: center;
+  }
+  .sp_move_images img {
+    width: 25%;
+  }
+  .press #contents h2 .head-desc {
+    line-height: 1.4;
+    display: block;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  .press #contents h3 .head-desc {
+    display: none;
+  }
+  .press #edit-area .sectionHeaderLink {
+    top: 5px;
+  }
+  .press .articleListArea span {
+    margin: 5px 0 0 0;
+  }
+  .press #edit-area .articleListArea.media .iconbase {
+    float: none;
+    margin: 0;
+  }
+  .archive .articleListArea .articleListDate {
+    display: block;
+    float: none;
+    margin-bottom: 5px;
+  }
+  .archive .articleListArea.media .articleListDate {
+    float: left;
+  }
+  .archive #edit-area .media .iconbase {
+    float: none;
+    margin-left: 0;
+  }
+  .archive #edit-area .media p,
+  .press #edit-area .media p {
+    margin: 10px 0 0 0;
+  }
+  .articleListArea + h3 {
+    margin-top: 40px !important;
+  }
+  #articleHeader {
+    padding: 0 20px;
+  }
+  #articleHeader h1 {
+    font-size: 15px;
+    width: auto;
+  }
+  .dataPdf a {
+    margin-left: 0;
+  }
+  #socialarea {
+    float: none;
+    text-align: center;
+  }
+  .dataPdf + #socialarea {
+    margin-top: 15px;
+  }
+  #article {
+    padding: 30px 20px 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  #article p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  #article img {
+    max-width: 100%;
+    height: auto;
+  }
+  .recruit_banner {
+    width: auto;
+    margin: 30px auto 0;
+  }
+
+.recruit_banner a {
+	display:block;
+	margin-top:10px;}
+	
+  .firsttimeMovie {
+    margin: 10px 0 0 0;
+  }
+  .privacy .areaProvisions + p {
+    margin-top: 20px;
+  }
+  .about #edit-area .owner tr:first-child th:first-child {
+    width: 10%;
+    white-space: nowrap;
+  }
+  .about #edit-area .owner .types {
+    width: 30%;
+    white-space: nowrap;
+  }
+  .about #edit-area table .none td:nth-child(2) {
+    width: auto !important;
+  }
+  #edit-area .moveBtn p {
+    margin-bottom: 7px;
+  }
+  .moveBtn .text {
+    float: none;
+    width: auto;
+  }
+  .moveBtn a {
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  #edit-area .ir-bulk .inner .left {
+    width: auto;
+    margin-right: 0;
+  }
+  .highlight-q .map img {
+    width: 60%;
+  }
+  .highlight #irp-graph-fy_highlight2,
+  .highlight #irp-graph-4q_highlight2,
+  .highlight #irp-graph-en_fy_highlight2,
+  .highlight #irp-graph-en_4q_highlight2 {
+    margin: 30px 0;
+  }
+  #irp-graph-fy_highlight2,
+  #irp-graph-4q_highlight2,
+  #irp-graph-en_fy_highlight2,
+  #irp-graph-en_4q_highlight2 {
+    width: 100% !important;
+    height: auto !important;
+  }
+  #irp-graph-fy_highlight2 img,
+  #irp-graph-4q_highlight2 img {
+    width: 100%;
+    height: auto;
+  }
+  .highlight #edit-area .map img {
+    width: 60%;
+  }
+  #edit-area .analyst td:first-child {
+    width: 55%;
+    padding: 10px 15px 10px 0;
+  }
+  #edit-area .questionsList li {
+    padding-left: 2.3em;
+    text-indent: -2.3em;
+  }
+  #searchForm {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .search-result #searchArea {
+    width: 100%;
+  }
+  .search-result #searchArea li {
+    width: 100%;
+  }
+  .search-result #searchArea .keywords {
+    width: 98%;
+    width: -webkit-calc(100% - 48px);
+    width:         calc(100% - 48px);
+  }
+  #overview .companyName {
+    padding: 15px 0 10px 0;
+  }
+  #overview .companyName img {
+    float: none;
+    padding-right: 0;
+  }
+  #overview .companyName p {
+    float: none;
+  }
+  #overview .investerRelations01 {
+    float: none;
+    width: auto;
+  }
+  .investerRelations01 + .investerRelations01 {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+/*subMedia2を追加 20171129*/
+  #overview .subMedia2 div.left,
+  #overview .subMedia2 div.right,
+  #overview .subMedia3 div {
+    float: none;
+    width: 70%;
+    margin: auto;
+  }
+  #overview .subMedia2 div.left + div,
+  #overview .subMedia3 div + div {
+    margin-top: 20px;
+  }
+  #overview .subMedia2 div dl,
+  #overview .subMedia3 div dl {
+    margin: auto;
+    text-align: center;
+  }
+  #overview .subMedia3 .end,
+  #overview .serviceLink a.end {
+    margin-right: auto;
+  }
+  #overview .serviceLink {
+    display: -webkit-box;
+    display:    -moz-box;
+    display:     -ms-box;
+    display: -webkit-flexbox;
+    display:    -moz-flexbox;
+    display:     -ms-flexbox;
+    display: -webkit-flex;
+    display:    -moz-flex;
+    display:     -ms-flex;
+    display:         flex;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0;
+    -webkit-box-lines: multiple;
+       -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+       -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  #overview .serviceLink a {
+    position: relative;
+    float: none;
+    width: 42%;
+height: auto;
+    margin: 0 4% 0 4%;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #overview .serviceLink a img {
+    margin: 0 auto 5px;
+  }
+  #overview .column2 .left {
+    display: block;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  #overview .column2 .left a img {
+    margin: auto;
+    text-align: center;
+  }
+  #overview .column2 .right {
+    float: none;
+    width: auto;
+  }
+  #edit-area .individual-top {
+    margin: 30px 0 20px;
+  }
+  .individual .linkButton .left {
+    float: none;
+  }
+  .individual .linkButton .right {
+    float: none;
+  }
+  .individual .linkButton .left {
+    float: none;
+    margin-bottom: 20px;
+  }
+  .individual .linkButton .right {
+    float: none;
+  }
+  .individual .linkButton a {
+    width: auto;
+  }
+  .individual .height80 {
+    height: auto;
+  }
+  .individual #edit-area .servicelist li {
+    margin-left: 0;
+  }
+  .individual .servicelist li img {
+    float: none;
+	margin-bottom: 10px;
+  }
+  .individual .servicelist li p {
+    float: none;
+    width: auto;
+  }
+
+	/* 2018.12 追加 説明会動画*/
+.individual .movBox{
+	width: auto;}
+
+.individual .movBox .alignL,
+.individual .movBox .alignR{
+	float:none;
+	width: auto;}
+
+.individual .movBox .alignL p.name{
+margin-bottom: 10px !important;}
+	
+.individual .movBox .alignR img {
+		width: 100%;}	
+	
+/* 2018.12 追加 説明会動画 ここまで*/
+	
+	
+  .info #edit-area .status {
+    width: 100%;
+  }
+  .info #edit-area .status td {
+    vertical-align: top;
+  }
+  .info #edit-area .status td:first-child {
+    width: 65%;
+  }
+  .info #edit-area .owner {
+    table-layout: fixed;
+  }
+  .info #edit-area .owner th,
+  .info #edit-area .owner td {
+    word-break: break-all;
+  }
+  .info #edit-area .owner tr:first-child th:first-child {
+    width: 55%;
+  }
+  .info #edit-area .owner td:nth-child(2),
+  .info #edit-area .owner td:nth-child(3) {
+    white-space: nowrap;
+  }
+  .info #edit-area .overviewTableStyle th {
+    width: 30%;
+  }
+  .info #edit-area .overviewTableStyle td {
+    width: 70%;
+    word-break: break-all;
+  }
+  html[lang='en'] .info #edit-area .overviewTableStyle td {
+    word-break: break-word;
+  }
+  #page-404 p {
+    padding: 0 20px;
+  }
+  #page-404 .link-404 {
+    margin-top: 40px;
+    padding: 30px 20px;
+  }
+
+
+
+  .release-ir #edit-area .ir-pulldown-list {
+    display: none;
+  }
+  .release-ir #edit-area .ir-pulldown-list {
+    width: 100%;
+    margin-top: 30px;
+    background: none !important;
+  }
+  .release-ir #edit-area .ir-pulldown-list {
+    height: auto;
+  }
+  .release-ir #edit-area .ir-pulldown-list ul {
+    position: static;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    border-right: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    border-left: 1px solid #b7b7b7;
+    background-color: #fff;
+  }
+  .release-ir #edit-area .ir-pulldown-list ul li {
+    display: inline-block;
+    width: 33.33%;
+  }
+  .release-ir #edit-area .ir-pulldown-list ul li a {
+    text-align: center;
+    border-top: none;
+  }
+  .release-ir #edit-area .ir-pulldown-list ul a:link,
+  .release-ir #edit-area .ir-pulldown-list ul a:visited {
+    padding: 15px 0;
+    background-image: none;
+  }
+  .release-ir #edit-area .ir-pulldown-list ul a:hover,
+  .release-ir #edit-area .ir-pulldown-list ul a:active {
+    background-color: #fff;
+  }
+  .release-ir #edit-area .ir-pulldown-list p {
+    padding-left: 15px;
+  }
+
+
+
+
+  .irp-calendar-list {
+    margin-top: 30px;
+  }
+  .irp-calendar-date {
+    float: none;
+  }
+  .irp-calendar-title {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .contact-flow {
+    margin: 0 0 50px;
+  }
+  #contents div#trust-form.contact-form table tr,
+  #contents div#trust-form.contact-form table th,
+  #contents div#trust-form.contact-form table td,
+  #contents div#trust-form.contact-form table textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #contents div#trust-form.contact-form table th {
+    margin-bottom: 5px;
+  }
+  #contents div#trust-form .easy-select-box .esb-displayer {
+    box-sizing: border-box;
+    height: 27px !important;
+  }
+  #contents div#trust-form.contact-form .contactAgreement {
+    box-sizing: border-box;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  #edit-area #contactAgreementBtnarea {
+    width: 100%;
+  }
+  #contactAgreementBtnarea input[type='button'] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+  #contactAgreementBtnarea [type='submit'] {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+  #contactAgreementBtnarea input[type='button'] + button[type='submit'],
+  #contactAgreementBtnarea input[type='submit'] + [type='submit'] {
+    margin-top: 20px;
+  }
+  #contents div#trust-form.contact-form .error {
+    margin: 5px 0 0 5px;
+  }
+  #contents div#trust-form.contact-form-confirm table td div {
+    margin-left: 12px;
+  }
+  #areaCaution .textCaution {
+    width: 100%;
+    padding-right: 0;
+  }
+  #areaCaution p {
+    float: none;
+  }
+  #areaCaution table {
+    margin-right: 0 ;
+    margin-left: auto ;
+  }
+  .map .sp_map_apps a {
+    font-size: 12px;
+    display: block;
+    width: 120px;
+    margin-bottom: 13px;
+    padding: 6px 0 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+  }
+	/*2018.07.02 map_canvas3、map_canvas4追加*/
+	/*2020.01.14 map_canvas6、map_canvas7追加*/
+  #map_canvas,
+  #map_canvas2,
+	#map_canvas3,
+    #map_canvas4,
+	#map_canvas5,
+	#map_canvas6,
+	#map_canvas7,
+	#map_canvas8{
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+    height: 0;
+    height: 100% !important;
+    padding: 0 0 56%;
+  }
+  .sitemap #edit-area .mod-2clm .left {
+    width: auto;
+    margin-right: 0;
+  }
+  .sitemap #edit-area .mod-2clm .right {
+    width: auto;
+  }
+  .sitemap #edit-area .mod-2clm div {
+    width: auto;
+  }
+  .sitemap #edit-area .mod-2clm .left + .right {
+    margin-top: 40px;
+  }
+    .officerList {
+    width: auto;
+    margin-bottom: 60px;
+    padding-bottom: 0;}
+
+/*.officerBox.spTop {
+		padding-top: 40px;}*/
+  .officerList .position {
+    font-weight: normal;
+    width: 100%;
+    padding: 0 0 5px 0;
+margin-bottom: 0;
+  }
+	
+  .officerList .position p {
+    line-height: 1.6 !important;
+    margin-bottom: 0 !important;
+  }
+  .officerList .position p span {
+    font-size: 11px;
+    display: inline;
+    padding-right: 8px;
+  }
+  .officerList div {
+    float: none;
+  }
+  .officerList .name {
+    font-size: 20px;
+    font-weight: normal;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+  .officerList .career {
+    width: 100%;
+  }
+  .officerList .career p {
+    margin-bottom: 0 !important;
+  }
+  .officerList .career li .year {
+    display: block;
+    float: left;
+    width: 100px;
+    padding-right: 0;
+  }
+  .officerList .career li span {
+    line-height: 1.6;
+    vertical-align: top;
+	 padding-top: 11px;}
+	
+  .officerList .career li .data {
+    display: block;
+    overflow: hidden;
+    width: auto;
+  }
+  .officer .caution {
+    text-align: left !important;
+  }
+  .ir-bulk .mod-2clm .right .btn_base,
+  .ir-bulk .mod-2clm .right .caution {
+    display: none;
+  }
+	
+/*  181227　ミッション変更  */
+#edit-area ul.valuelist li{margin-left: 0;}
+
+html[lang="ja"] #edit-area ul.valuelist li span {
+	display: inline-block;
+	padding-left: 20px;}
+	
+html[lang="en"] #edit-area ul.valuelist li span {
+display: block;
+padding-left: 0;}
+}
+
+/*  2019.07　プレスリリース用テーブルCSS  */
+.pressTable,
+.pressTableNo{
+border-collapse:separate;
+border-spacing:0;
+box-sizing:border-box;}
+
+.pressTable td,
+.pressTableNo td{
+font-size: 13px;
+line-height:1.8;
+font-weight:normal;
+vertical-align:top;
+word-break: break-all;
+}
+.pressTable{
+border-bottom:#bababa 1px solid;
+border-left: #bababa 1px solid;}
+
+.pressTable td{
+padding: 10px 12px 8px;
+border-top:#bababa 1px solid;
+border-right:#bababa 1px solid;}
+
+.pressTableNo td{
+padding: 0 10px 5px 0;}
+
+.pressTable .bgdarkgray,
+.pressTableNo .bgdarkgray{
+background-color:#6b6b6b;
+color:#fff;}
+
+.pressTable .bggray,
+.pressTableNo .bggray{
+background-color:#efefef;}
+
+.pressTable .bgdarkblue,
+.pressTableNo .bgdarkblue{
+background-color:#003387;
+color:#fff;}
+
+.pressTable tr.dot td{
+padding: 10px 12px 8px;
+border-bottom:#919191 1px dotted;
+border-right:#bababa 1px solid;}
+
+.pressTable .bgblue,
+.pressTableNo .bgblue{
+background-color:#ecf3ff;}
+
+.imgRight{
+	overflow:hidden;}
+
+.imgRight .img{
+	float:right;
+	padding:0 0 0 20px;}
+
+.imgRight .text{
+	float:left;}
+
+.imgRightspR .img{box-sizing:border-box;}
+.imgRightspR {
+	display:table;
+width:100%;}
+.imgRightspR .img,
+.imgRightspR .text {
+	display:table-cell;
+	vertical-align:middle;}
+
+.w520 {width:520px;}
+
+.pressTable td.wborder {box-shadow: 0 1px 0 0 #bababa, 0 2px 0 0 #FFF, 0 3px 0 0 #bababa;}
+
+/*20200614追加*/
+.tableSide {
+overflow:hidden;}
+
+.tableSide .tableset {
+	float:left;}
+
+.tableSide .tableset + .tableset{
+	margin-left:30px;}
+
+/*20201006追加*/
+.table3 {overflow: hidden;}
+
+.table3 div {
+float: left;
+width: 220px:}
+
+.table3 div p {
+	margin-bottom:5px !important;}
+	
+.table3 div + div {
+margin-left: 20px;}
+
+.tablecenter {
+	width:460px;
+	margin:0 auto;}
+	
+@media screen and ( max-width:768px ) {
+	.homeinfo{padding:0 15px;}
+	.homeinfo div {margin-bottom:15px !important;}
+	
+	.imgRight .img {
+	float:none;
+	padding:0;
+	width:100% !important;}
+
+.imgRight .text {
+	float:none;
+	width:100% !important;}
+	
+.imgRight .img + .text{
+	margin-top:15px;}
+	
+.imgRightspR .img {
+	padding-left:15px;}
+
+.w520 {width:100%;}
+	
+/*20200614追加*/	
+	.tableSide .tableset{
+		float:none;}
+.tableSide .tableset + .tableset{
+	margin-left: 0;
+	margin-top:30px;}
+
+/*20201006追加*/
+.table3 div{
+float:none;
+width:100%;}
+	
+.table3 div + div {margin-left:0;
+margin-top:20px;}
+
+.tablecenter {width:100%;}
+}
+
+/*  2020.01　プレスリリースリスト用CSS  */
+.newslist dd {
+margin-left:20px;
+padding-top:5px;
+padding-left:1em;
+text-indent:-1em;}
+
+.newslist dd + dt {
+	margin-top:15px;}
+
+/*  2020.02　渋谷オフィス入り口説明  */
+.shibuyaentr {
+margin-top:40px;}
+
+.shibuyaentr .tit {
+font-weight:bold;}
+
+.shibuyaentr div p {
+font-size:11px;
+width:430px;}
+
+@media screen and ( max-width:768px ) {
+.shibuyaentr div.img img {width:100%;}
+.shibuyaentr div p {width:100%;}
+}
+
+/*  2020.03 アクセスマップアンカー */
+dl.mapanchor,
+dl.mapanchor_e {
+overflow: hidden;}
+
+dl.mapanchor + dl.mapanchor,
+dl.mapanchor_e + dl.mapanchor_e{
+margin-top:20px;}
+
+dl.mapanchor dt,
+dl.mapanchor_e dt{
+float: left;
+font-weight:bold;}
+
+dl.mapanchor dt{
+	width: 100px;}
+
+dl.mapanchor dd{
+width: 600px;}
+
+dl.mapanchor dd + dd{
+	margin-top:8px;
+	margin-left:100px;}
+
+dl.mapanchor_e dt{
+	width: 130px;}
+dl.mapanchor_e dd{
+width: 570px;}
+
+dl.mapanchor_e dd + dd {
+	margin-top:8px;
+	margin-left:130px;}
+
+dl.mapanchor dd,
+dl.mapanchor_e dd{
+overflow: hidden;
+float: left;}
+
+dl.mapanchor span,
+dl.mapanchor_e span{
+float: left;
+display:inline-block;}
+/*20210831修整*/
+dl.mapanchor span{
+/*width:120px;*/
+width:190px;}
+dl.mapanchor_e span{
+/*width:180px;*/
+width:190px;}
+
+dl.mapanchor dd a,
+dl.mapanchor_e dd a	{
+	background:url(../../uploads/2020/03/map_arrow.png) left 50% no-repeat;
+	padding-left:12px;}
+
+@media screen and ( max-width:768px ) {
+
+dl.mapanchor dt,
+dl.mapanchor_e dt{
+		margin-bottom:8px;
+	font-size:108%;}
+	
+dl.mapanchor span,
+dl.mapanchor_e span{
+		display:block;
+		width:100%;}	
+	
+dl.mapanchor span + span,
+dl.mapanchor_e span + span{
+margin-left:0;
+margin-top:5px;}
+	
+dl.mapanchor dd + dd,	
+dl.mapanchor_e dd + dd {
+	margin-top:5px;
+	margin-left:0;}
+}
+
+
+/* 202109 Quicktag用 接頭辞qt- */
+
+/* 1.paragraph */
+#article p.qt-dropCap {
+	text-indent:1em;
+}
+#article p.qt-dropCap_noMargin {
+	text-indent:1em;
+	margin-bottom:0;
+}
+#article p.qt-nonstyle {}
+#article p.qt-noMargin {
+	margin-bottom:0;
+}
+#article p.qt-lhNarrow {
+	line-height:1.8;
+}
+
+/* 2.text-size */
+#article span.qt-fontXL {
+	font-size:123%;
+}
+#article span.qt-fontL {
+	font-size:112%;
+}
+#article span.qt-fontS {
+	font-size:85%;
+}
+
+/* 3.text-decoration */
+#article span.qt-fontBold {
+	font-weight:bold;
+}
+#article span.qt-fontUL {
+	text-decoration:underline;
+}
+#article span.qt-fontBold_UL {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/* 4.table */
+#article div.qt-tableA_1col p,
+#article div.qt-tableB p,
+#article div.qt-tableC p {
+	text-align:center;
+}
+#article div.qt-tableA_2col,
+#article div.qt-tableA_3col {
+    display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#article div.qt-tableA_2col .qt-tableFlexItem {
+	margin:0 20px 15px;
+}
+#article div.qt-tableA_3col .qt-tableFlexItem {
+	margin:0 10px 15px;
+}
+#article table.qt-tableBdr {
+	margin:0 auto 15px;
+    border-collapse:separate;
+    border-spacing:0;
+    box-sizing:border-box;
+    border-bottom:#bababa 1px solid;
+    border-left: #bababa 1px solid;
+}
+#article table.qt-tableBdr td {
+    line-height:1.8;
+    font-weight:normal;
+    vertical-align:top;
+    word-break: break-all;
+    padding: 10px 12px 8px;
+    border-top:#bababa 1px solid;
+    border-right:#bababa 1px solid;
+}
+#article table.qt-tableNoBdr {
+	margin:0 auto 15px;
+    border-collapse:separate;
+    border-spacing:0;
+    box-sizing:border-box;
+}
+@media screen and ( max-width:768px ) {
+	#article table.qt-tableNoBdr {
+		font-size:14px;
+	}
+}
+#article table.qt-tableNoBdr td {
+	padding: 0 10px 5px 0;
+    line-height:1.8;
+    font-weight:normal;
+    vertical-align:top;
+    word-break: break-all;
+}
+
+#article table[class^='qt-table'] .bgDarkGy {
+    background-color:#6b6b6b;
+    color:#fff;
+}
+#article table[class^='qt-table'] .bgGy {
+    background-color:#efefef;
+}
+#article table[class^='qt-table'] .bgDarkBl {
+    background-color:#003387;
+    color:#fff;
+}
+#article table[class^='qt-table'] .bgBl {
+    background-color:#ecf3ff;
+}
+#article table[class^='qt-table'] .borderW {
+    box-shadow: 0 1px 0 0 #bababa, 0 2px 0 0 #fff, 0 3px 0 0 #bababa;
+}
+
+/* 5.image */
+#article div.qt-image2col {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#article div.qt-image2col div.qt-imageBox {
+	margin:0 10px 15px;
+}
+#article div.qt-image1col p.qt-imageCaption,
+#article div.qt-image2col p.qt-imageCaption {
+	text-align:center;
+	margin-bottom:0;
+}
+#article div.qt-image2col p.qt-imageWrap {
+	margin-bottom:0;
+}
+#article div.qt-image2col img {
+	height:100%;
+	width:auto;
+	max-width:678px;
+}
+#article div.qt-image2col.qt-image2colSpaceWide div.qt-imageBox {
+	margin:0 20px 15px;
+}
+@media screen and ( max-width:768px ) {
+	#article div.qt-image2col img {
+		max-width:100%;
+		object-fit:contain;
+	}
+}
+
+#article div[class^='qt-imageFloat'] {
+	display:flex;
+	justify-content:center;
+}
+@media screen and ( max-width:768px ) {
+	#article div[class^='qt-imageFloat'].qt-imageFloatDirRev {
+		flex-direction:column-reverse;
+		align-items:center;
+	}
+}
+#article div.qt-imageFloatRTop,
+#article div.qt-imageFloatLTop {
+	align-items:flex-start;
+}
+#article div.qt-imageFloatRCnt {
+	align-items:center;
+}
+#article div.qt-imageFloatRBtm {
+	align-items:flex-end;
+}
+#article div[class^='qt-imageFloat'] div.qt-paraWrap {
+	margin-bottom:15px;
+}
+#article div.qt-imageFloatRTop p.qt-imageWrap,
+#article div.qt-imageFloatRCnt p.qt-imageWrap,
+#article div.qt-imageFloatRBtm p.qt-imageWrap {
+	margin:0 0 15px 15px;
+}
+#article div.qt-imageFloatLTop p.qt-imageWrap {
+	margin:0 15px 15px 0;
+}
+#article div[class^='qt-imageFloat'] p.qt-imageWrap img {
+	width:100%;
+	height:auto;
+}
+@media screen and ( max-width:768px ) {
+	#article div[class^='qt-imageFloat'] {
+		flex-wrap:wrap;
+	}
+	#article p.qt-imageWrap {
+		margin:0 0 15px 0 !important;
+		max-width:100% !important;
+		min-width:auto !important;
+	}
+}
+
+
+/* 6.layout */
+#article div.qt-indent1 {
+	padding-left:2em;
+}
+#article div.qt-indent2 {
+	padding-left:4em;
+}
+@media screen and ( max-width:768px ) {
+	#article div.qt-indent1 {
+		padding-left:1.5em;
+	}
+	#article div.qt-indent2 {
+		padding-left:3em;
+	}
+}
+#article div.qt-spacer5 {
+	content:'';
+	height:0;
+	margin-bottom:5px;
+}
+#article div.qt-spacer10 {
+	content:'';
+	height:0;
+	margin-bottom:10px;
+}
+#article div.qt-spacer15 {
+	content:'';
+	height:0;
+	margin-bottom:15px;
+}
+#article div.qt-spacerN5 {
+	content:'';
+	height:0;
+	margin-bottom:-5px;
+}
+#article div.qt-spacerN10 {
+	content:'';
+	height:0;
+	margin-bottom:-10px;
+}
+#article div.qt-spacerN15 {
+	content:'';
+	height:0;
+	margin-bottom:-15px;
+}
+
+/* 7.decoration */
+#article div.qt-listItemGroup p,
+#article div.qt-listItem {
+	text-indent:-1em;
+	padding-left:1em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset10 p,
+#article div.qt-listItem.qt-listItemOffset10 {
+	text-indent:-1em;
+	padding-left:1em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset15 p,
+#article div.qt-listItem.qt-listItemOffset15 {
+	text-indent:-1.5em;
+	padding-left:1.5em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset20 p,
+#article div.qt-listItem.qt-listItemOffset20 {
+	text-indent:-2em;
+	padding-left:2em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset25 p,
+#article div.qt-listItem.qt-listItemOffset25 {
+	text-indent:-2.5em;
+	padding-left:2.5em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset30 p,
+#article div.qt-listItem.qt-listItemOffset30 {
+	text-indent:-3em;
+	padding-left:3em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset35 p,
+#article div.qt-listItem.qt-listItemOffset35 {
+	text-indent:-3.5em;
+	padding-left:3.5em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset40 p,
+#article div.qt-listItem.qt-listItemOffset40 {
+	text-indent:-4em;
+	padding-left:4em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset45 p,
+#article div.qt-listItem.qt-listItemOffset45 {
+	text-indent:-4.5em;
+	padding-left:4.5em;
+}
+#article div.qt-listItemGroup.qt-listItemOffset50 p,
+#article div.qt-listItem.qt-listItemOffset50 {
+	text-indent:-5em;
+	padding-left:5em;
+}
+#article div.qt-wrapBkLine {
+	margin-bottom:15px;
+	padding:10px 15px;
+	border:1px solid #bababa;
+}
+#article div.qt-wrapGyBg {
+	margin-bottom:15px;
+	padding:10px 15px;
+	background-color:#efefef;
+}
+#article div.qt-wrapGyBg_GyLine {
+	margin-bottom:15px;
+	padding:10px 15px;
+	background-color:#efefef;
+	border:1px solid #bababa;
+}
+@media screen and ( max-width:768px ) {
+	#article div.qt-wrapBkLine {
+		padding:10px 12px;
+	}
+	#article div.qt-wrapGyBg {
+		padding:10px 12px;
+	}
+	#article div.qt-wrapGyBg_GyLine {
+		padding:10px 12px;
+	}
+}
