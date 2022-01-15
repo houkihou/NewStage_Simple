@@ -81,7 +81,7 @@
         	line-height: 39px;
         	position: fixed;
         	right: 15px;
-        	bottom: 50px;
+        	bottom: 60px;
         	color: #fff;
         	border-radius: 50%;
         	z-index: 100;
