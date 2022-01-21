@@ -29,7 +29,7 @@ include 'header.php';
       </li>
       <li
         id="menu-item-40"
-        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40 current_page_item"
+        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
       >
         <a href="<?php echo bloginfo('url').'/news'; ?>">ニュース</a>
       </li>
