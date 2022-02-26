@@ -1,6 +1,6 @@
 <?php
 
-require_once get_template_directory() .'/cs-framework/cs-framework.php';
+//require_once get_template_directory() .'/cs-framework/cs-framework.php';
 
 ini_set('error_reporting','E_ALL & ~E_NOTICE'); //提示除去 E_NOTICE 之外的所有错误信息
 
@@ -32,7 +32,7 @@ function focusScripts() {
 
     if ( !is_admin() ) {
         //wp_enqueue_script( 'bootstrap' );
-        wp_deregister_script( 'jquery' );	// 禁止加载默认jq库
+        //wp_deregister_script( 'jquery' );	// 禁止加载默认jq库
         
         
         //wp_enqueue_script('jquery_min','https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');        
@@ -64,16 +64,6 @@ function focusScripts() {
 }  
 add_action( 'init','focusScripts' );
 
-
-/**
- * 禁止后台加载谷歌字体
- */
-function wp_remove_open_sans_from_wp_core() {
-    wp_deregister_style( 'open-sans' );
-    wp_register_style( 'open-sans',false );
-    wp_enqueue_style('open-sans','');
-}
-add_action( 'init','wp_remove_open_sans_from_wp_core' );
 
 
 //////////////////////////////////////////theme Custom Start//////////////////////////////////////////////////////////
