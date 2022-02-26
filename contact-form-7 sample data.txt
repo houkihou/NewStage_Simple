@@ -34,13 +34,13 @@ contact-form-7  以下の様な内容
 <th><span class="content">お問い合わせ分類</span> <span class="require">必須</span></th>
 <td>
 <div class="select-box">
-[select* your-menu"選択してください" "採用について" "事業内容について" "その他"]
+[select* your-subject"選択してください" "採用について" "事業内容について" "その他"]
 </div>
 
 </td>
 </tr>
 
-<th><span class="content">お問い合わせ内容詳細</span> <span class="require">必須</span></th>
+<th><span class="content">お問い合わせ内容</span> <span class="require">必須</span></th>
 <td>
 <span class="your-message">
 [textarea* your-message]
@@ -66,7 +66,7 @@ contact-form-7  以下の様な内容
 
 <div class="select-box" >
 <p id="contactAgreementBtnarea" class="submit-container">
-[submit "お問い合わせ"]
+[submit "問い合わせ内容を送信する"]
 </p>
 </div>
 [response]
