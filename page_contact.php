@@ -40,6 +40,18 @@ include 'header.php';
           <div id="edit-area">
             <div class="form-wrap">
               <div id="trust-form" class="contact-form contact-form-input">
+                  
+               <div id="message-container-input">
+                <p>この度はお問合せいただき、誠にありがとうございます。<br>
+                必要な項目をご記入の上、当社「個人情報保護方針」をよくお読みいただき、同意の上お問い合わせください。<br>
+               ※当社の営業時間は、平日月曜日から金曜日の午前10時から午後7時までとなります。<br></p>
+                </div>
+                <br>
+                 
+
+                 <?php echo do_shortcode('[contact-form-7 id="106" title="お問い合わせ"]'); ?> 
+
+             <!--      
                 <dl class="choiceList">
                   <dt>採用に関するお問い合わせ</dt>
                   <dd>採用に関するお問い合わせは、下記のメールにて受け付けております。
@@ -55,6 +67,8 @@ include 'header.php';
                     <br />
                     <a class="formlink" href="mailto:service_jp@kucent.com?subject=サービス・事業内容に関するお問い合わせ&amp;body=">お問い合わせをする</a></dd>
                 </dl>
+                -->
+                
               </div>
             </div>
           </div>
