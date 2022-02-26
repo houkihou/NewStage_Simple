@@ -131,9 +131,9 @@
       <p id="copyright">Copyright &copy; Kucent.com, Inc. All Rights Reserved.</p></div>
   
   
-  
+   <?php wp_footer();?>	
   </body>
 
 </html>
-  <?php wp_footer();?>	
+ 
 
