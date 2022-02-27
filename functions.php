@@ -65,6 +65,41 @@ function focusScripts() {
 add_action( 'init','focusScripts' );
 
 
+/**
+ *  自动提醒WordPress主题使用者安装必要插件
+ */
+function showAdminMessages()
+{
+    $plugin_messages = array();
+    include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+    // Download the Contact Form 7
+    if(!is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ))
+    {
+        $plugin_messages[] = 'This theme requires you to install the Contact Form 7 plugin, <a href="https://wordpress.org/plugins/contact-form-7/">download it from here</a>.';
+    }
+    // Download the Easy WP SMTP
+    if(!is_plugin_active( 'easy-wp-smtp/easy-wp-smtp.php' ))
+    {
+        $plugin_messages[] = 'This theme requires you to install the Easy WP SMTP plugin, <a href="https://wordpress.org/plugins/easy-wp-smtp/">download it from here</a>.';
+    }
+    // Download the WordPress Download Classic Editor plugin
+    if(!is_plugin_active( 'classic-editor/classic-editor.php' ))
+    {
+        $plugin_messages[] = 'This theme requires you to install the WordPress Classic Editor plugin, <a href="https://wordpress.org/plugins/classic-editor/">download it from here</a>.';
+    }
+    if(count($plugin_messages) > 0)
+    {
+        echo '<div id="message" class="notice notice-error">';
+            foreach($plugin_messages as $message)
+            {
+                echo '<strong>'.$message.'</strong><br>';
+            }
+        echo '</div>';
+    }
+}
+add_action('admin_notices', 'showAdminMessages');
+
+
 
 //////////////////////////////////////////theme Custom Start//////////////////////////////////////////////////////////
 // set permalink
