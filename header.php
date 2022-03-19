@@ -45,9 +45,13 @@
         <div class="spSidebarLanguage">
           <div class="spSidebarLanguageJa">Japanese</div>
           <div class="spSidebarLanguageEn">
-            <a href="<?php echo bloginfo('url'); ?>">English</a></div>
+            <a href="<?php echo bloginfo('url'); ?>">English</a>
+          </div>
         </div>
         -->   
+         <div class="spSidebarLanguage">
+             <?php echo do_shortcode('[gtranslate]'); ?>
+         </div>
       </nav>
 
 
@@ -58,14 +62,14 @@
           <div class="fRight clear-fix headfunction" id="headerInfo">
             </br>
             <div class="clear-fix headbtn">
-              <p id="headerSitemap">
-                <a href="<?php echo bloginfo('url').'/sitemap'; ?>">サイトマップ</a></p>
             <!--     
               <p id="headerLanguage">
                 <a href="<?php echo bloginfo('url'); ?>">English</a></p>
               <p id="headerLanguage">
                 <a href="<?php echo bloginfo('url'); ?>">中文</a></p>
              -->   
+             
+            <p id="headerLanguage"><?php echo do_shortcode('[gtranslate]'); ?></p>
             </div>
             <div id="headerSearch">
               <!-- searchForm -->
@@ -79,6 +83,7 @@
                 <!-- searchArea --></form>
               <!-- searchForm --></div>
           </div>
+         
         </div>
       </div>
           
