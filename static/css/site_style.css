@@ -1039,7 +1039,7 @@ display: inline-block;}
 	background: #fff;
 	background: url(resource/images/common_images/dropdown-button.png) right 50% no-repeat, linear-gradient(to bottom, #fff 0%,#fff 100%);
 	width: 460px;
-	height:27px;
+/* 	height:27px;*/
 padding: 2px 4px 2px 10px;
 border-radius: 0;}
 #contents div#trust-form.contact-form table td .select-box select::-ms-expand {
@@ -1053,7 +1053,6 @@ border-radius: 0;}
 #contents div#trust-form.contact-form table td input[type=email],
 #contents div#trust-form.contact-form table td input[type=tel],
 #contents div#trust-form.contact-form table td .easy-select-box > .esb-displayer {
-  height: 15px;
   padding: 5px;
 }
 #contents div#trust-form.contact-form table td input[type=radio] {
