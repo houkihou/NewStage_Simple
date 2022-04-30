@@ -1,4 +1,4 @@
-# NewStage_theme_simple
+### NewStage_theme
 Wordpress Theme NewStage
 
 不用钱 免费用
